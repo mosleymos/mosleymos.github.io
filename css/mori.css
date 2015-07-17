@@ -1,0 +1,130 @@
+html, body {
+  margin: 0 0;
+  font-family: Times-New-Roman;
+}
+
+/*== Styles pour la navigation */
+
+#navigation {
+  background: #000;
+  position: fixed;
+  z-index:3;
+  width: 100%;
+}
+
+.navigation-menu {
+  display:inline;
+ }
+
+.navigation-items {
+  float: left;
+  display:inline-block;
+  color: #fff;
+  font-weight: bold;
+  background: #000;
+  list-style-decoration: none;
+  padding: 1em 1em;
+  margin: 0 0;
+}
+
+.navigation-link {
+   color:#fff;
+   font-weight: bold;
+   text-decoration:none; 
+   
+}
+
+.navigation-link:hover {
+   text-decoration:underline; 
+}
+
+.navigation-ending {
+    width:100%;
+    margin-bottom:0;
+}
+
+/* == Style pour les titres */
+
+.site-title {
+  color:#fff;
+  font-size:1.40em;
+  font-weight: bold;
+  text-align:center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.site-slogan {
+  padding-left:1em;
+  font-size:1em;
+  text-align:center;
+  display:inline;
+  color:#fff;
+
+}
+  
+
+#content{
+  padding: 6em 2em;
+}
+
+
+/*== Style pour les articles */
+
+.article-title{
+  font-weight:bold;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.article-subtitle{
+  font-size:0.94em;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+.article-info:first-letter{
+  font-size: 200%;
+  font-weight: bold;
+}
+
+/* == Style pour le footer */
+
+.footer-ending {
+    margin-bottom:0px;
+    margin-top:0px;
+ }
+
+.coolfooter {
+    width: 100%;
+    position:fixed;
+    z-index: 3;
+    bottom: 0;
+    color: #fff;
+    background-color: #000;
+ }
+
+ .logo-link {
+   height: 40px;
+   width: 40px;
+}
+
+/* Style particuliers */
+
+.credits {
+  text-align: right;
+}
+
+.code-citation{
+  width:100%;
+  position:relative;
+}
+
+.dotted {
+    width:100%;
+    position: relative;
+    z-index:2;
+    border: 0;
+    border-bottom: 2px dashed #000;
+    background: #fff;
+}
+
