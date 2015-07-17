@@ -23,7 +23,10 @@ html, body {
   font-weight: bold;
   background: #000;
   list-style-decoration: none;
-  padding: 1em 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 1em;
   margin: 0 0;
 }
 
