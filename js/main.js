@@ -14,7 +14,7 @@ angular.module('decode',['ngRoute'])
 	.when('/', { templateUrl:'templates/home.html' })
 	.when('/projects', { templateUrl:'templates/projects.html' })
 	.when('/articles', {templateUrl:'templates/articles.html'})
-	.when('/about', {templateUrl: 'templates/about.html'})
+	.when('/about', {templateUrl: 'templates/about.html', cache:true})
 	.when('/404', {templateUrl: 'templates/404.html'})
 	// Articles routes
 	
