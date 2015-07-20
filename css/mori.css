@@ -1,15 +1,23 @@
 html, body {
+  padding:0 0;
   margin: 0 0;
   font-family: Times-New-Roman;
 }
 
-/*== Styles pour la navigation */
+/*== Styles pour la navigation == */
 
 #navigation {
   background: #000;
   position: fixed;
   z-index:3;
   width: 100%;
+  top:0;
+}
+
+.navigation-title {
+  padding:auto 1.5em;
+  font-weight:bold;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .navigation-menu {
@@ -46,7 +54,35 @@ html, body {
     margin-bottom:0;
 }
 
-/* == Style pour les titres */
+.navigation-mobile {
+    display:none;
+    position:fixed;
+    z-index: 3;
+    padding: 1em auto;
+    float:left;
+    width:100%;
+    height:13%;
+    color:#fff;
+    background-color: #000;
+}
+
+.navigation-item-mobile {
+   display:inline;
+   font-weight:bold;
+   list-style-type:none;
+   float:left;
+   padding:.4em .45em;
+   color:#fff;
+   background-color: #000;
+}
+
+.navigation-link-mobile {
+   text-decoration:none;
+   color:#fff;
+   background-color:#000;
+}
+
+/* == Style pour les titres == */
 
 .site-title {
   color:#fff;
@@ -58,9 +94,9 @@ html, body {
 }
 
 .site-slogan {
-  padding-left:1em;
+  padding: 1em auto;
   font-size:1em;
-  text-align:center;
+  text-align:justify;
   display:inline;
   color:#fff;
 
@@ -72,7 +108,25 @@ html, body {
 }
 
 
-/*== Style pour les articles */
+/*== Style pour les articles == */
+
+
+.articles-list {
+   list-style-type:none;
+   color: #fff;
+   background-color: #000;
+   padding-top: 1em;
+   padding-bottom: 1em;
+   margin-top: 1em;
+   margin-bottom: 1em;
+}
+
+.article-link {
+   color:white;
+   padding-left: 2em;
+   padding-right: 1em;
+   text-decoration:none;
+}
 
 .article-title{
   font-weight:bold;
@@ -90,7 +144,7 @@ html, body {
   font-weight: bold;
 }
 
-/* == Style pour le footer */
+/* == Style pour le footer == */
 
 .footer-ending {
     margin-bottom:0px;
@@ -111,7 +165,7 @@ html, body {
    width: 40px;
 }
 
-/* Style particuliers */
+/* == Style particuliers == */
 
 .credits {
   text-align: right;
@@ -131,3 +185,49 @@ html, body {
     background: #fff;
 }
 
+/* == Style particulier pour la page about == */
+
+
+
+/* == Style pour le portrait about == */
+
+.about-container {
+   display:flex;
+   flex-direction:row;
+}
+
+.about-description {
+   padding-left: 1em; 
+   flex: 2 0 0 ;
+
+}
+
+.portrait {
+   height: 220px;
+   width: 100px;
+   flex: 0.5 0 0;
+}
+
+/* == Responsivité == */
+
+@media (max-width:768px){ 
+   .navigation-items {
+	padding-right:2em;
+   }
+
+}
+
+@media (max-width: 767px){
+   .navigation-items{
+	display:none;
+   }
+   .navigation-mobile{
+	display: inline;
+   }
+
+   .about-container {
+	display:flex;
+	flex-direction:column;
+   }
+   
+}
