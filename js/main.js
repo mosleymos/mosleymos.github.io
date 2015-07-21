@@ -2,8 +2,8 @@ angular.module('decode',['ngRoute'])
 .directive('articlesfooter', function(){
 	return {
 		restrict:'AE', 
-		replace: 'true',
-		templateUrl:'templates/directives/articlefooter.html'
+		replace: true,
+		template:'<a href="/#/articles" class="articles-navigation">Retour aux articles</a>'
 	};
 })
 
