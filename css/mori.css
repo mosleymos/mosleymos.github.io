@@ -4,6 +4,10 @@ html, body {
   font-family: Times-New-Roman;
 }
 
+article {
+  padding-bottom: 1.5em;
+}
+
 /*== Styles pour la navigation == */
 
 #navigation {
@@ -135,13 +139,22 @@ html, body {
 
 .article-subtitle{
   font-size:0.94em;
-    font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', cursive;
 
 }
 
 .article-info:first-letter{
   font-size: 200%;
   font-weight: bold;
+}
+
+.articles-navigation {
+  padding: 1em 1em;
+  margin: 1em auto;
+  font-weight:bold;
+  color:#fff;
+  background-color: #000;
+  text-decoration:none;
 }
 
 /* == Style pour le footer == */
@@ -206,6 +219,14 @@ html, body {
    height: 220px;
    width: 100px;
    flex: 0.5 0 0;
+}
+
+
+/* == Projects style == */
+
+.projects-list-item {
+  list-style-type:none;
+  padding: auto 0.4em;
 }
 
 /* == Responsivité == */
