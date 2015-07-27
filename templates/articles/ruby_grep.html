@@ -10,12 +10,10 @@
                             <p>Un peu par hasard j'ai découvert que grep d'unix était présent en ruby.</p>
                             <p>Ainsi sur un objet quelconque on peut greper pour trouver des methodes selon une regexp</p>
 			    <p><em>.grep(<Regexp>)</em> est a rajouter avec <em>.inspect</em> dans mes methodes pour verifier les objets sous pry.</p>
-			    <p>Les exemples suivant sont bien plus parlant je trouve: <pre><code type="ruby">
-			    Object.methods.grep /re/ #Affiche toute les methodes de l'objet qui contienne "re" 
-			    "Les chaussettes de l'archiduchesse sont sèches".scan(/\w+/).grep /^ch/ #Renvoie chaussette qui commence par ch
-			    </code></pre></p>
-			    <p>Le .grep marche aussi avec les Array et tableaux en utilisant un range a la place de la regexp: <pre><code type="ruby">
-			   	[1,2,3,4,67,4,-5,-5,-78,6,10,-10,1.2,45,5.5].grep 0..10 # va renvoyer un tableau comprenant tout les nombres entre 0 et 10, y compris les floats 
+			    <p>Les exemples suivant sont bien plus parlant je trouve: <pre><code type="ruby" class="code-presentation"> Object.methods.grep /re/ #Affiche toute les methodes de l'objet qui contienne "re" 
+
+ "Les chaussettes de l'archiduchesse sont sèches".scan(/\w+/).grep /^ch/ #Renvoie chaussette qui commence par ch </code></pre></p>
+			    <p>Le .grep marche aussi avec les Array et tableaux en utilisant un range a la place de la regexp: <pre><code type="ruby" class="code-presentation"> [1,2,3,4,67,4,-5,-5,-78,6,10,-10,1.2,45,5.5].grep 0..10 # va renvoyer un tableau comprenant tout les nombres entre 0 et 10, y compris les floats 
 			    </code></pre></p>
 
 			    <p>.grep est une manière assez rapide pour filtrer.</p>
