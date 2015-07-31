@@ -7,6 +7,14 @@ angular.module('decode',['ngRoute'])
 	};
 })
 
+.directive('disqus', function(){
+	return {
+	        restrict:'AE', 
+		replace: false,
+		templateUrl: '../../templates/directives/disqus.html'
+	};
+})
+
 
 .config(function($routeProvider){
 	$routeProvider
