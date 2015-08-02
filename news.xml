@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rss version="2.0">
+    <channel>
+   
+        <title>Decode Blog</title>
+        <link>http://mosleymos.github.io</link>
+        <description>Les news du blog</description>
+             
+        <item>
+            <title>Enfin un flux RSS !</title>
+            <link>http://mosleymos.github.io</link>
+            <guid isPermaLink="true">http://mosleymos.github.io/news.xml</guid>
+            <description>1 er flux rss du site</description>
+	    <pubDate>Sun, 02 Aug 13:04:06 2015 GMT</pubDate>
+        </item>
+       
+    </channel>
+</rss>
