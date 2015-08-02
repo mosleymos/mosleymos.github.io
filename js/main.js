@@ -23,6 +23,7 @@ angular.module('decode',['ngRoute'])
 	.when('/projects', { templateUrl:'templates/projects.html' })
 	.when('/articles', {templateUrl:'templates/articles.html'})
 	.when('/about', {templateUrl: 'templates/about.html', cache:true})
+	.when('/rss', {templateUrl:'templates/rss.html'})
 	.when('/404', {templateUrl: 'templates/404.html'})
 	// Articles routes
 	
