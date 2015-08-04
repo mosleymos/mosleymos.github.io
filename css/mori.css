@@ -262,20 +262,20 @@ article {
 /* == Style pour le portrait about == */
 
 .about-container {
-   display:flex;
-   flex-direction:row;
+   float:left;
+   display:inline-block;
 }
 
 .about-description {
-   padding-left: 1em; 
-   flex: 2 0 0 ;
+   padding-left: 2em; 
 
 }
 
 .portrait {
    height: 220px;
-   width: 100px;
-   flex: 0.5 0 0;
+   width: 150px;
+   float:left;
+   padding-right: 2em;
 }
 
 
@@ -293,6 +293,10 @@ article {
 	padding-right:2em;
    }
 
+   .portrait {
+	padding-right:0em;
+   }
+
 }
 
 @media (max-width: 767px){
@@ -303,9 +307,14 @@ article {
 	display: inline;
    }
 
-   .about-container {
-	display:flex;
-	flex-direction:column;
+   .portrait {
+	float:none;
+
    }
+   .about-description {
+	display:block;
+	padding-left:0em;
+   }
+
    
 }
