@@ -264,6 +264,7 @@ article {
 .about-container {
    float:left;
    display:inline-block;
+   padding-bottom: 1em;
 }
 
 .about-description {
@@ -283,7 +284,7 @@ article {
 
 .projects-list-item {
   list-style-type:none;
-  padding: auto 0.4em;
+  padding: 1em  0.4em;
 }
 
 /* == Responsivité == */
