@@ -43,6 +43,6 @@ angular.module('decode',['ngRoute'])
 
 	// 404 si moindre probleme
 	.otherwise({
-		redirectTo:'/404.html'
+		redirectTo:'/404'
 	});
 });
