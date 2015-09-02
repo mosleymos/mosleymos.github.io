@@ -219,6 +219,10 @@ article {
   text-decoration:none;
 }
 
+.end-of-article{
+  padding-top:2em;
+}
+
 /* == Style pour le footer == */
 
 .footer-ending {
