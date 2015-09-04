@@ -283,6 +283,16 @@ article {
    padding-right: 2em;
 }
 
+.hopwork_button {
+   background-color: #df3f0d;
+   box-shadow: 1px 1px 2px rgba(0,0,0,.26);
+   padding: 10px 20px;
+   font-weight: 400;
+   text-transform:capitalize;
+   display:inline-block;
+
+}
+
 
 /* == Projects style == */
 
