@@ -1,9 +1,31 @@
+var articlesList = [
+
+	{title:'Hello World', urlLink:'/articles/helloworld'},
+	{title:'FizzBuzz', urlLink:'/articles/ruby_training'},
+	{title:'Jedi Jihad', urlLink:'/articles/jedi_jihad'},
+	{title:'Jeet css', urlLink:'/articles/jeet_css'},
+	{title:'Codelab css', urlLink:'/articles/codelab_css_testing'},
+	{title:'Corpore sano', urlLink:'/articles/corpore_sano'},
+	{title:'Codelab css', urlLink:'/articles/codelab_css_testing'},
+	{title:'Javascript PC', urlLink:'/articles/javascript_linux_emulation'},
+	{title:'Movie News', urlLink:'/articles/movie_news'},
+	{title:'Ruby Grep', urlLink:'/articles/ruby_grep'},
+	{title:'Test en css', urlLink:'/articles/css_testing'}
+
+];
+
+
 angular.module('decode',['ngRoute'])
+
+.controller('ArticlesListCtrl',['$scope', function($scope){
+        $scope.articles = articlesList;
+}])
+
 .directive('articlesfooter', function(){
 	return {
 		restrict:'AE', 
 		replace: true,
-		template:'<a href="/#/articles" class="articles-navigation">Retour aux articles</a>'
+		templateUrl:'../../templates/directives/articlesfooter.html'
 	};
 })
 
@@ -16,7 +38,7 @@ angular.module('decode',['ngRoute'])
 })
 
 
-.config(function($routeProvider){
+.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider){
 	$routeProvider
 	// Routes principales
 	.when('/', { templateUrl:'templates/home.html' })
@@ -39,10 +61,12 @@ angular.module('decode',['ngRoute'])
 	.when('/articles/ruby_training', {templateUrl: 'templates/articles/ruby_training.html'})
 
 
-
-
 	// 404 si moindre probleme
 	.otherwise({
 		redirectTo:'/404'
 	});
-});
+
+	// Remove the hashtag
+	$locationProvider.html5Mode(true);
+
+}]);
