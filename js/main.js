@@ -1,5 +1,5 @@
-(function(){
 
+	var angular = require('angular');
 	var articlesList = [
 
 		{title:'Hello World', urlLink:'/articles/helloworld'},
@@ -17,7 +17,7 @@
 	];
 
 
-	angular.module('decode',['ngRoute'])
+	angular.module('decode',[require('angular-route')])
 
 	.controller('ArticlesListCtrl',['$scope', function($scope){
 		$scope.articles = articlesList;
@@ -73,5 +73,4 @@
 
 	}]);
 
-})();
 
