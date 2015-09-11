@@ -3,13 +3,14 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <KEITA Mori> -- <developer keitamori@gmail.com> -- <@mohbemok>
 
 # THANKS
 
-    <name>
+    <keitamori@gmail.com>
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    jQuery, Modernizr
+    jQuery, Modernizr,
+    Angular
