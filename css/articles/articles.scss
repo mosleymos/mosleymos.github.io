@@ -1,0 +1,50 @@
+
+/*== Style pour les articles == */
+
+
+.articles-list {
+   list-style-type:none;
+   color: #fff;
+   background-color: #000;
+   padding-top: 1em;
+   padding-bottom: 1em;
+   margin-top: 1em;
+   margin-bottom: 1em;
+}
+
+.article-link {
+   color:white;
+   padding-left: 2em;
+   padding-right: 1em;
+   text-decoration:none;
+}
+
+.article-title{
+  font-weight:bold;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.article-subtitle{
+  font-size:0.94em;
+  font-family: 'Press Start 2P', cursive;
+
+}
+
+.article-info:first-letter{
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.articles-navigation {
+  padding: 1em 1em;
+  margin: 1em auto;
+  font-weight:bold;
+  color:#fff;
+  background-color: #000;
+  text-decoration:none;
+}
+
+.end-of-article{
+  padding-top:2em;
+}
+
