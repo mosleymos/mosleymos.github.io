@@ -9,7 +9,6 @@
 		{title:'Jeet css', urlLink:'/articles/jeet_css'},
 		{title:'Codelab css', urlLink:'/articles/codelab_css_testing'},
 		{title:'Corpore sano', urlLink:'/articles/corpore_sano'},
-		{title:'Codelab css', urlLink:'/articles/codelab_css_testing'},
 		{title:'Javascript PC', urlLink:'/articles/javascript_linux_emulation'},
 		{title:'Movie News', urlLink:'/articles/movie_news'},
 		{title:'Ruby Grep', urlLink:'/articles/ruby_grep'},
