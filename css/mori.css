@@ -293,6 +293,16 @@ article {
 
 }
 
+.profile-link-mobile{
+	color:#fff;
+	background-color:#000;
+	padding-left:1em;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	text-decoration: none;
+	display:none;
+}
+
 
 /* == Projects style == */
 
@@ -330,6 +340,10 @@ article {
 	display:block;
 	padding-left:0em;
    }
+
+	 .profile-link-mobile  {
+		display:block; 
+	 }
 
    
 }
