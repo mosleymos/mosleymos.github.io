@@ -11,9 +11,11 @@
 		{title:'Javascript PC', urlLink:'/articles/javascript_linux_emulation'},
 		{title:'Movie News', urlLink:'/articles/movie_news'},
 		{title:'Ruby Grep', urlLink:'/articles/ruby_grep'},
-		{title:'Test en css', urlLink:'/articles/css_testing'}
-
+		{title:'Test en css', urlLink:'/articles/css_testing'},
+		{title:'Violence', urlLink:'/articles/violence'}
 	];
+
+		//{title:'Two year of programming', urlLink:'/articles/two_years_of_programming'},
 
 
 	angular.module('decode',[require('angular-route')])
@@ -42,12 +44,14 @@
 	.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider){
 		$routeProvider
 		// Routes principales
+		
 		.when('/', { templateUrl:'templates/home.html' })
 		.when('/projects', { templateUrl:'templates/projects.html' })
 		.when('/articles', {templateUrl:'templates/articles.html'})
 		.when('/about', {templateUrl: 'templates/about.html', cache:true})
 		.when('/rss', {templateUrl:'templates/rss.html'})
 		.when('/404', {templateUrl: 'templates/404.html'})
+
 		// Articles routes
 		
 		.when('/articles/codelab_css_testing', {templateUrl: 'templates/articles/codelab_css_testing.html'})
@@ -60,6 +64,7 @@
 		.when('/articles/movie_news', {templateUrl: 'templates/articles/movie_news.html'})
 		.when('/articles/ruby_grep', {templateUrl: 'templates/articles/ruby_grep.html'})
 		.when('/articles/ruby_training', {templateUrl: 'templates/articles/ruby_training.html'})
+		.when('/articles/violence', {templateUrl: 'templates/articles/violence.html'})
 
 
 		// 404 si moindre probleme
