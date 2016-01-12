@@ -23,9 +23,12 @@ Open your brower at localhost:8000 to see the website
 TODO:
 1. Make an other version of the site with polymerjs
 2. Create a gruntfile process
-  2.1 Concatenate html
+  2.1 Clean html
   2.2 Compile scss 
   2.3 Concatenate css 
   2.4 Minify css
   2.5 Minify js 
   2.6 Install livereload
+
+DOING:
+- Choose gulp, seems better and funny a [little tutorial](https://www.youtube.com/watch?v=dwSLFai8ovQ)
