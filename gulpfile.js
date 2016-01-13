@@ -14,7 +14,7 @@ gulp.task('default', function(){
 
 // Little help from https://egghead.io/lessons/javascript-gulp-and-browserify-initial-setup
 gulp.task('browserify', function(){
-  browserify('js/main.js')
+  return browserify('js/main.js')
     .bundle()
     .on('error', function(){
       console.log('ca foire' +  e);
@@ -43,6 +43,7 @@ gulp.task('serve', function(){
     }
   });
 
+  gulp.watch(['js/main.js'],['browserify']);
   gulp.watch('scss/*.scss', ['sass']);
   gulp.watch(['*.html', 'templates/**/*.html', 'js/**/*.js', 'css/*.css'], {cwd: '.'}, reload);
 
