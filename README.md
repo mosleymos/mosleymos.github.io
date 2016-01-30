@@ -29,6 +29,15 @@ TODO:
   2.4 Minify css
   2.5 Minify js 
   2.6 Install livereload
+3. Article to finish
+  3.1 VBn information
+  3.2 2 years information
+  3.3 Shneck-analysis
+  3.4 Email-analysis
+4. Integrate image logo of Iwheelshare, VBN, arkena, meteor to project
 
 DOING:
 - Choose gulp, seems better and funny a [little tutorial](https://www.youtube.com/watch?v=dwSLFai8ovQ)
+
+DONE:
+- Gulp base configuration
