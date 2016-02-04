@@ -1,26 +1,18 @@
-            <section>
+---
+layout: post
+title:  "Movie news"
+date:   2014-03-24 19:41:18 +0100
+categories: jekyll update
+---
+### Chappie
 
-                <article>
-                          <h3 class="article-title">
-                                Chappie
-                            </h3>
-			    <hr class="dotted">
-			    
-                        <div class="panel-body">
-                            <p>Je suis allé récemment voir le film chappie, c'était un film marrant, sympa. </p>
-                            <p>Les moments robot gangsta étaient marrants</p>
-                            <p>Cependant une des interrogation qui m'est venue durant le film (et que je pense est un objectif) est le fait d'utiliser la machine pour le maintien de l'ordre.</p>
-                            <p>Des représentant de la loi et l'ordre, sous la forme de machines.</p>
-                            <p>Le prochain avenger suivra je pense cette optique.</p>
-                            <p>Il faut croire qu'un des rêves des nations est d'avoir une armée de robots.</p>
-                            <p>Bien qu'au final ce l'humain qui devra payer la facture</p>
-                        </div>
-
-                </article>
-
-		<disqus></disqus>
-
-		<articlesfooter></articlesfooter>
-
-            </section>
+<div class="panel-body">
+<p>Je suis allé récemment voir le film chappie, c'était un film marrant, sympa. </p>
+<p>Les moments robot gangsta étaient marrants</p>
+<p>Cependant une des interrogation qui m'est venue durant le film (et que je pense est un objectif) est le fait d'utiliser la machine pour le maintien de l'ordre.</p>
+<p>Des représentant de la loi et l'ordre, sous la forme de machines.</p>
+<p>Le prochain avenger suivra je pense cette optique.</p>
+<p>Il faut croire qu'un des rêves des nations est d'avoir une armée de robots.</p>
+<p>Bien qu'au final ce l'humain qui devra payer la facture</p>
+</div>
 

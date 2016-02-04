@@ -1,44 +1,30 @@
+---
+layout: post
+title:  "Css testing"
+date:   2015-03-27 19:41:18 +0100
+categories: jekyll update
+---
 
-        <section>
-            <article>
+<div class="panel-body">
+<p>Le css un langage de type impératif pour rendre les pages html plus belles. Le css est ma bête noire ... cependant je commence à peine à l'apprécier ceci du fait que j'ai appris qu'il était possible de tester du css.</p>
+<p>Oui ! Vous avez bien entendu on peut tester du css, des framework de test en Css existent</p>
+<p>Different type de framework css existent pour différentes fonctionnalités</p>
+<p>Parmi ceux que j'ai découvert j'ai trouvé:</p>
+<ul>
+<li>Galen</li>
+<li>Cactus</li>
+<li>Hardy</li>
+</ul>
+<p>C'est des framework qui sont encore un peu en state of the art (sauf Galen).</p>
+<p>Je vais je pense désormais m'interesser au Ui testing</p>
 
+<a href="http://www.creativebloq.com/css3/4-tools-automatic-css-testing-7133777">4 tools automatic Css Testing</a>
+<a href="https://css-tricks.com/automating-css-regression-testing/">automating css regression testing</a>
+<a href="http://www.tutorialspoint.com/software_testing_dictionary/use_interface_testing.htm">Tutorials point Ui testing</a>
+<a href="http://tldr.huddle.com/blog/css-testing/">Css testinog</a>
+<a href="https://www.lullabot.com/blog/article/css-regression-testing-resemblejs">CSS Regression testing with resemble.js</a>
+<a href="http://csste.st/">CssTe.st</a>
 
-                            <h3 class="article-title">
-                                Css Testing
-                            </h3>
-			    <hr class="dotted">
-			    
-                        <div class="panel-body">
-                            <p>Le css un langage de type impératif pour rendre les pages html plus belles. Le css est ma bête noire ... cependant je commence à peine à l'apprécier ceci du fait que j'ai appris qu'il était possible de tester du css.</p>
-                            <p>Oui ! Vous avez bien entendu on peut tester du css, des framework de test en Css existent</p>
-                            <p>Different type de framework css existent pour différentes fonctionnalités</p>
-                            <p>Parmi ceux que j'ai découvert j'ai trouvé:</p>
-                            <ul>
-                                <li>Galen</li>
-                                <li>Cactus</li>
-                                <li>Hardy</li>
-                            </ul>
-                            <p>C'est des framework qui sont encore un peu en state of the art (sauf Galen).</p>
-                            <p>Je vais je pense désormais m'interesser au Ui testing</p>
+<p>Une vidéo assez inspirante sur le css <a href="https://www.youtube.com/watch?v=2PU6JX4S7zI">Automated css testing</a></p>
 
-                            <a href="http://www.creativebloq.com/css3/4-tools-automatic-css-testing-7133777">4 tools automatic Css Testing</a>
-                            <a href="https://css-tricks.com/automating-css-regression-testing/">automating css regression testing</a>
-                            <a href="http://www.tutorialspoint.com/software_testing_dictionary/use_interface_testing.htm">Tutorials point Ui testing</a>
-                            <a href="http://tldr.huddle.com/blog/css-testing/">Css testinog</a>
-                            <a href="https://www.lullabot.com/blog/article/css-regression-testing-resemblejs">CSS Regression testing with resemble.js</a>
-                            <a href="http://csste.st/">CssTe.st</a>
-
-                            <p>Une vidéo assez inspirante sur le css <a href="https://www.youtube.com/watch?v=2PU6JX4S7zI">Automated css testing</a></p>
-
-                        </div>
-
-
-
-            </article>
-
-	    <disqus></disqus>
-
-	    <articlesfooter></articlesfooter>
-        </section>
-
-
+</div>

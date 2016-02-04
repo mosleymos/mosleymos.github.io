@@ -1,24 +1,15 @@
-        <section>
-            <article>
+---
+layout: post
+title:  "Hello world"
+date:   2014-09-12 19:41:18 +0100
+categories: jekyll update
+---
 
-                            <h3 class="article-title">Hello World</h3>
+<p>It's my first post, and frankly I don't know what's to begin with. 
+Maybe because this blog has been decided to be created on a whim.</p>
+<p>
+I'd wanted to try github personnal page service so here we are.
+</p>
 
-			    <hr class="dotted">
 
 
-			    <div class="panel-body">
-				    <p>It's my first post, and frankly I don't know what's to begin with. 
-				    Maybe because this blog has been decided to be created on a whim.</p>
-				    <p>
-				    I'd wanted to try github personnal page service so here we are.
-				    </p>
-
-			    </div>
-
-            </article>
-
-		<disqus></disqus>
-
-	    <articlesfooter></articlesfooter>
-
-        </section>
