@@ -38,6 +38,7 @@ TODO:
 
 DOING:
 - Choose gulp, seems better and funny a [little tutorial](https://www.youtube.com/watch?v=dwSLFai8ovQ)
+- Migrate site from angularjs to jekyll
 
 DONE:
 - Gulp base configuration
