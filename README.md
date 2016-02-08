@@ -37,6 +37,7 @@ TODO:
 4. Integrate image logo of Iwheelshare, VBN, arkena, meteor to project
 5. Include .travis integration
 6. Recreate blogsite style
+7. Add a custom 404 page if possible
 
 DOING:
 - Choose gulp, seems better and funny a [little tutorial](https://www.youtube.com/watch?v=dwSLFai8ovQ)
