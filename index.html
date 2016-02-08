@@ -1,121 +1,14 @@
-<!doctype html>
-<html class="no-js" lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>DecoDe blog</title>
-        <meta name="description" content="mosleymos blog">
-	<meta name="keywords" content="mosleymos mori keita github simplon iwheelshare">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+---
+layout: default
+---
 
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+<div class="home">
 
+    <h1 class="page-heading">Bienvenue sur le blog de mosleymos</h1>
+    <p>Ce blog comporte une série d'articles sur les problèmatiques que je rencontre dans la programmation.</p>
+    <p>J'ai un slogan qui résume ma pratique de la programmation.</p>
+    <blockquote><p>I talk to machines and often to humans.</p></blockquote>
 
-	<link rel="alternate" type="application/rss+xml" href="http://www.mosleymos.github.io/news.xml" title="Decode Blog">
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-	<base href='/'>
-
-
-        <link rel="stylesheet" href="css/normalize.min.css">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Flamenco">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Press+Start+2P">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/mori.min.css">
-
-
-    </head>
-    <body>
-
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-	
-	<div ng-app="decode">
-		<nav id="navigation">
-		<ul class="navigation-menu">
-			<li class="navigation-items"><h4 class="site-title">DecoDe</h4><h6 class="site-slogan">"I talk to machines and often to humans" </h6> </li>
-			<li class="navigation-items "><a class="navigation-link" href="/">Accueil</a></li>
-			<li class="navigation-items "><a class="navigation-link" href="/articles">Articles</a></li>
-			<li class="navigation-items "><a class="navigation-link" href="/projects">Projets</a></li>
-			<li class="navigation-items "><a class="navigation-link" href="/about">A propos</a></li>
-		</ul>
-		</nav>
-
-		<nav>
-			<ul class="navigation-mobile">
-				<li class="navigation-item-mobile"><a class="navigation-link-mobile" href="/">Accueil</a></li>
-				<li class="navigation-item-mobile"><a class="navigation-link-mobile" href="/articles">Articles</a></li>
-				<li class="navigation-item-mobile"><a class="navigation-link-mobile" href="/projects">Projets</a></li>
-				<li class="navigation-item-mobile"><a class="navigation-link-mobile" href="/about">A propos</a></li>
-			</ul>
-		</nav>
-
-			<section id="content">
-				<div id="main-content">
-					<ng-view></ng-view>
-				</div>
-			</section>
-
-			<footer class="coolfooter">
-			<nav>	
-			
-			<ul class="navigation-menu">
-
-				<li class="navigation-items"><a href="http://www.viadeo.com/fr/profile/mori.keita1"><img src="http://static0.viadeo-static.com/v_img221350/profile/promotion/white/button_logo.png" border="0" /></a></li>
-				<li class="navigation-items"><a href="http://github.com/mosleymos"><img src="img/GitHub-Mark-Light-32px.png" alt="Logo github"></a</li>
-					<li class="navigation-items "><a class="navigation-link" href="mailto:keitamori@gmail.com"><i class="fa fa-envelope fa-2x"></i></a></li>
-				<li class="navigation-items "><a class="navigation-link" href="/#/rss"><i class="fa fa-rss-square fa-2x"></i></a></li>
-			</ul>
-		</nav>
-
-		
-			</footer>
-
-		</div>
-
-	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-	<script src="js/bundle.min.js"></script>
-
-
-<!--
-	<script src="js/angular.min.js"></script>
-	<script src="js/angular-route.min.js"></script>
-
-	<script src="js/main.min.js"></script>
--->
-
-
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-65657621-1','auto');ga('send','pageview');
-        </script>
-
-
-	<!--HopWork widget-->
-
-
-	<script type="text/javascript">
-	 (function(d,id) {
-	 if (d.getElementById(id)) return;
-	 var s = d.createElement('script');
-	 var c = d.getElementsByTagName('script')[0];
-	 s.type = 'text/javascript';
-	 s.async = true;
-	 s.src = 'https://widgets.hopwork.com/1.0.0/js/sdk.min.js';
-	 c.parentNode.insertBefore(s, c);
-	 })(document,'hopwork-sdkjs-btn');
-	 </script>
-
-
-    </body>
-</html>
+</div>
