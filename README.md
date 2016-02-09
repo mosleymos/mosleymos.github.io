@@ -1,4 +1,5 @@
 # mosleymos.github.io
+[![(https://travis-ci.org/mosleymos/mosleymos.github.io.svg?branch=master)]](https://travis-ci.org/mosleymos/mosleymos.github.io)
 
 Blog Mosleymos
 
