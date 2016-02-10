@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DecodeBlog</title>
-    <description>&quot;I talk to machines and often to humans.&quot; This is my simple blog about programming and other stuff
+    <description>&quot;I talk to machines and often to humans.&quot;... This is my motto, you&#39;re in a blog about programming and other stuff.
 </description>
     <link>http://mosleymos.github.io/</link>
     <atom:link href="http://mosleymos.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Feb 2016 12:52:27 +0100</pubDate>
-    <lastBuildDate>Mon, 08 Feb 2016 12:52:27 +0100</lastBuildDate>
+    <pubDate>Wed, 10 Feb 2016 21:44:07 +0100</pubDate>
+    <lastBuildDate>Wed, 10 Feb 2016 21:44:07 +0100</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
