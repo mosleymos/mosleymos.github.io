@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 ### Long code
 
-Recently I make some katas in ruby, javascript and python with the site [Codewars](http://www.codewars.com)
+Recently I make some katas in ruby, javascript and python with the site [Codewars](http://codewars.com)
 I try during these exercices to solve the problem with one line of code.
 
 {% highlight ruby %}

@@ -24,7 +24,7 @@ Je vais je pense désormais m'interesser au Ui testing
 
 [Automating css regression testing](https://css-tricks.com/automating-css-regression-testing/)
 
-[Tutorials point Ui testing](http://www.tutorialspoint.com/software_testing_dictionary/use_interface_testing.html)
+[Tutorials point Ui testing](http://www.tutorialspoint.com/software_testing_dictionary/use_interface_testing)
 
 [Css testing](http://tldr.huddle.com/blog/css-testing/)
 
