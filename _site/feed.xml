@@ -6,8 +6,8 @@
 </description>
     <link>http://mosleymos.github.io/</link>
     <atom:link href="http://mosleymos.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Feb 2016 23:24:25 +0100</pubDate>
-    <lastBuildDate>Wed, 10 Feb 2016 23:24:25 +0100</lastBuildDate>
+    <pubDate>Wed, 10 Feb 2016 23:33:52 +0100</pubDate>
+    <lastBuildDate>Wed, 10 Feb 2016 23:33:52 +0100</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -185,7 +185,7 @@ Je vais je pense désormais m’interesser au Ui testing&lt;/p&gt;
         <title>Fizzbuzz</title>
         <description>&lt;h3 id=&quot;long-code&quot;&gt;Long code&lt;/h3&gt;
 
-&lt;p&gt;Recently I make some katas in ruby, javascript and python with the site &lt;a href=&quot;http://codewars.com&quot;&gt;Codewars&lt;/a&gt;
+&lt;p&gt;Recently I make some katas in ruby, javascript and python with the site Codewars
 I try during these exercices to solve the problem with one line of code.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;fizzbuzz&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
