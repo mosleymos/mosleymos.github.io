@@ -6,8 +6,8 @@
 </description>
     <link>http://mosleymos.github.io/</link>
     <atom:link href="http://mosleymos.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Feb 2016 23:33:52 +0100</pubDate>
-    <lastBuildDate>Wed, 10 Feb 2016 23:33:52 +0100</lastBuildDate>
+    <pubDate>Thu, 11 Feb 2016 15:47:08 +0100</pubDate>
+    <lastBuildDate>Thu, 11 Feb 2016 15:47:08 +0100</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -134,6 +134,35 @@ Je vais je pense désormais m’interesser au Ui testing&lt;/p&gt;
       </item>
     
       <item>
+        <title>Movie news</title>
+        <description>&lt;h3 id=&quot;chappie&quot;&gt;Chappie&lt;/h3&gt;
+
+&lt;p&gt;Je suis allé récemment voir le film chappie, c’était un film marrant, sympa.&lt;/p&gt;
+
+&lt;p&gt;Les moments robot gangsta étaient marrants.&lt;/p&gt;
+
+&lt;p&gt;Cependant une des interrogation qui m’est venue durant le film (et que je pense est un objectif) est le fait d’utiliser la machine pour le maintien de l’ordre.&lt;/p&gt;
+
+&lt;p&gt;Des représentant de la loi et l’ordre, sous la forme de machines.&lt;/p&gt;
+
+&lt;p&gt;Le prochain avenger suivra je pense cette optique.&lt;/p&gt;
+
+&lt;p&gt;Il faut croire qu’un des rêves des nations est d’avoir une armée de robots.&lt;/p&gt;
+
+&lt;p&gt;Bien qu’au final ce l’humain qui devra payer la facture.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Mar 2015 19:41:18 +0100</pubDate>
+        <link>http://mosleymos.github.io/jekyll/update/2015/03/24/movie-news.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io/jekyll/update/2015/03/24/movie-news.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
         <title>Corpore Sano</title>
         <description>&lt;h3 id=&quot;pense-du-jour&quot;&gt;Pensée du jour&lt;/h3&gt;
 
@@ -240,38 +269,6 @@ Here the link to the project &lt;a href=&quot;http://jeet.gs&quot;&gt;JEET&lt;/a
         <pubDate>Sat, 01 Nov 2014 19:41:18 +0100</pubDate>
         <link>http://mosleymos.github.io/jekyll/update/2014/11/01/jeet-css.html</link>
         <guid isPermaLink="true">http://mosleymos.github.io/jekyll/update/2014/11/01/jeet-css.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Ruby grep</title>
-        <description>&lt;p&gt;Un peu par hasard j’ai découvert que grep d’unix était présent en ruby.&lt;/p&gt;
-
-&lt;p&gt;Ainsi sur un objet quelconque on peut greper pour trouver des methodes selon une regexp&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;.grep&lt;/strong&gt; est a rajouter avec &lt;strong&gt;.inspect&lt;/strong&gt; dans mes methodes pour verifier les objets sous pry.
-Les exemples suivant sont bien plus parlant je trouve:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#Affiche toute les methodes de l&#39;objet qui contienne &quot;re&quot;&lt;/span&gt;
-&lt;span class=&quot;no&quot;&gt;Object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;methods&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/re/&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;#Renvoie chaussette qui commence par ch&lt;/span&gt;
-&lt;span class=&quot;s2&quot;&gt;&quot;Les chaussettes de l&#39;archiduchesse sont sèches&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;scan&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/\w+/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/^ch/&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# Le .grep marche aussi avec les Array et tableaux en utilisant un range a la place de la regexp&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# va renvoyer un tableau comprenant tout les nombres entre 0 et 10, y compris les floats &lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;67&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;78&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;.grep est une manière assez rapide pour filtrer.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 04 Oct 2014 20:41:18 +0200</pubDate>
-        <link>http://mosleymos.github.io/jekyll/update/2014/10/04/ruby-grep.html</link>
-        <guid isPermaLink="true">http://mosleymos.github.io/jekyll/update/2014/10/04/ruby-grep.html</guid>
         
         
         <category>jekyll</category>
