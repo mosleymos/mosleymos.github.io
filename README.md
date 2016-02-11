@@ -36,13 +36,15 @@ TODO:
   3.3 Shneck-analysis
   3.4 Email-analysis
 4. Integrate image logo of Iwheelshare, VBN, arkena, meteor to project
-5. Include .travis integration
 6. Recreate blogsite style
 7. Add a custom 404 page if possible
 
+
 DOING:
 - Choose gulp, seems better and funny a [little tutorial](https://www.youtube.com/watch?v=dwSLFai8ovQ)
-- Migrate site from angularjs to jekyll
+
 
 DONE:
 - Gulp base configuration
+- Migrate site from angularjs to jekyll
+- Include .travis integration
