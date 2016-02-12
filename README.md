@@ -24,20 +24,21 @@ Open your brower at localhost:8000 to see the website
 TODO:
 1. Make an other version of the site with polymerjs
 2. Create a gruntfile process
-  2.1 Clean html
-  2.2 Compile scss 
-  2.3 Concatenate css 
-  2.4 Minify css
-  2.5 Minify js 
-  2.6 Install livereload
+  - Clean html
+  - Compile scss
+  - Concatenate css
+  - Minify css
+  - Minify js
+  - Install livereload
 3. Article to finish
-  3.1 VBn information
-  3.2 2 years information
-  3.3 Shneck-analysis
-  3.4 Email-analysis
+  - VBn information
+  - 2 years information
+  - Shneck-analysis
+  - Email-analysis
 4. Integrate image logo of Iwheelshare, VBN, arkena, meteor to project
 6. Recreate blogsite style
 7. Add a custom 404 page if possible
+8. Correct articles - add english version
 
 
 DOING:
