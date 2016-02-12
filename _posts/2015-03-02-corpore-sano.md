@@ -7,8 +7,18 @@ categories: jekyll update
 
 ### Pensée du jour
 
-La pensée du jour qui m'est passé par la tête est:
+##### French version
 
-> Un esprit sain dans un corps sain et dans un environnement propre ?
+La pensée du jour :
+
+> Un esprit sain dans un corps sain ?
 
 Faut dire que pour l'instant j'en suis loin du compte mais je m'en approche.
+
+##### English version
+
+Tought of the day
+
+> Mens sana in corpore sano ?
+
+I'm very far far away from that, but I'm near

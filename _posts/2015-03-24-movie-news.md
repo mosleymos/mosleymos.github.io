@@ -6,6 +6,8 @@ categories: jekyll update
 ---
 ### Chappie
 
+##### French version
+
 Je suis allé récemment voir le film chappie, c'était un film marrant, sympa.
 
 Les moments robot gangsta étaient marrants.
@@ -19,3 +21,17 @@ Le prochain avenger suivra je pense cette optique.
 Il faut croire qu'un des rêves des nations est d'avoir une armée de robots.
 
 Bien qu'au final ce l'humain qui devra payer la facture.
+
+##### English version
+
+I've see the movie Chappie, it's a good movie and funny.
+
+Robot's gangsta events we're funny.
+
+One question came through my mind during the movie, do countries want really robots to manage law and enforcement ?
+
+I think the next avenger will follow this idea
+
+I think I could believe one of gouvernements dreams it's to have a robots army.
+
+Although it will be the humans that pay the invoices.

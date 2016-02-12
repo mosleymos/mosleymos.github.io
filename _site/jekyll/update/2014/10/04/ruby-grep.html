@@ -8,7 +8,7 @@
 
   <meta name="keywords" content="mosleymos mori keita github simplon iwheelshare developer ruby on rails">
   <title>Ruby grep</title>
-  <meta name="description" content="Un peu par hasard j’ai découvert que grep d’unix était présent en ruby.">
+  <meta name="description" content="French version">
 
   <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
   <link rel="stylesheet" href="/css/normalize.min.css">
@@ -78,12 +78,14 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>Un peu par hasard j’ai découvert que grep d’unix était présent en ruby.</p>
+    <h5 id="french-version">French version</h5>
+
+<p>Un peu par hasard j’ai découvert que grep d’unix était présent en ruby.</p>
 
 <p>Ainsi sur un objet quelconque on peut greper pour trouver des methodes selon une regexp</p>
 
-<p><strong>.grep</strong> est a rajouter avec <strong>.inspect</strong> dans mes methodes pour verifier les objets sous pry.
-Les exemples suivant sont bien plus parlant je trouve:</p>
+<p><strong>.grep</strong> et <strong>.inspect</strong> sont mes methodes favorites pour verifier les objets sous une session pry.
+Quelques examples:</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#Affiche toute les methodes de l'objet qui contienne "re"</span>
 <span class="no">Object</span><span class="p">.</span><span class="nf">methods</span><span class="p">.</span><span class="nf">grep</span> <span class="sr">/re/</span>
@@ -91,11 +93,32 @@ Les exemples suivant sont bien plus parlant je trouve:</p>
 <span class="c1">#Renvoie chaussette qui commence par ch</span>
 <span class="s2">"Les chaussettes de l'archiduchesse sont sèches"</span><span class="p">.</span><span class="nf">scan</span><span class="p">(</span><span class="sr">/\w+/</span><span class="p">).</span><span class="nf">grep</span> <span class="sr">/^ch/</span>
 
-<span class="c1"># Le .grep marche aussi avec les Array et tableaux en utilisant un range a la place de la regexp</span>
-<span class="c1"># va renvoyer un tableau comprenant tout les nombres entre 0 et 10, y compris les floats </span>
+<span class="c1"># Le .grep marche aussi avec les Array. On aura a utilser un range</span>
+<span class="c1"># va renvoyer un tableau comprenant tout les nombres entre 0 et 10</span>
 <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">67</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="o">-</span><span class="mi">78</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span><span class="mi">1</span><span class="o">.</span><span class="mi">2</span><span class="p">,</span><span class="mi">45</span><span class="p">,</span><span class="mi">5</span><span class="o">.</span><span class="mi">5</span><span class="p">].</span><span class="nf">grep</span> <span class="mi">0</span><span class="p">.</span><span class="nf">.</span><span class="mi">10</span> </code></pre></figure>
 
 <p>.grep est une manière assez rapide pour filtrer.</p>
+
+<h5 id="english-version">English version</h5>
+
+<p>I’ve found unix grep was is available in ruby.</p>
+
+<p>So in any object we could use grep in order to find object’s methods with a regular expression.</p>
+
+<p><strong>.grep</strong> with <strong>.inspect</strong> are my favorites methods in order to check objects on a pry session.
+Some examples:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#Display all objects methods which match regular expression</span>
+<span class="no">Object</span><span class="p">.</span><span class="nf">methods</span><span class="p">.</span><span class="nf">grep</span> <span class="sr">/re/</span>
+
+<span class="c1">#Send chaussetes which begin with ch</span>
+<span class="s2">"Les chaussettes de l'archiduchesse sont sèches"</span><span class="p">.</span><span class="nf">scan</span><span class="p">(</span><span class="sr">/\w+/</span><span class="p">).</span><span class="nf">grep</span> <span class="sr">/^ch/</span>
+
+<span class="c1"># .grep work with Array. You'll need to use a range.</span>
+<span class="c1"># It will send all number between the range</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">67</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="o">-</span><span class="mi">78</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span><span class="mi">1</span><span class="o">.</span><span class="mi">2</span><span class="p">,</span><span class="mi">45</span><span class="p">,</span><span class="mi">5</span><span class="o">.</span><span class="mi">5</span><span class="p">].</span><span class="nf">grep</span> <span class="mi">0</span><span class="p">.</span><span class="nf">.</span><span class="mi">10</span> </code></pre></figure>
+
+<p>.grep is a fast way to filter.</p>
 
   </div>
 
@@ -160,7 +183,7 @@ Les exemples suivant sont bien plus parlant je trouve:</p>
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>"I talk to machines and often to humans."... This is my motto, you're in a blog about programming and other stuff.
+        <p>"I talk to machines and often to humans."... This is my motto, and you're in a blog about programming and other stuff.
 </p>
       </div>
     </div>
