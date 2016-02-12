@@ -9,7 +9,7 @@
 title: DecodeBlog
 email: keitamori@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  "I talk to machines and often to humans."... This is my motto, you're in a blog about programming and other stuff.
+  "I talk to machines and often to humans."... This is my motto, and you're in a blog about programming and other stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mosleymos.github.io" # the base hostname & protocol for your site
 twitter_username: mohbemok
