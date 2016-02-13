@@ -1,27 +1,23 @@
 # mosleymos.github.io
 [![Build Status](https://travis-ci.org/mosleymos/mosleymos.github.io.svg?branch=master)](https://travis-ci.org/mosleymos/mosleymos.github.io)
 
-Blog Mosleymos
+## Blog Mosleymos
 
 I write some posts about programmation, tips and tricks
 It's a work in progress
-Integration test made with dalekjs
-I've used browserify to import angularjs
-In order to run the website on your local machine, you'll need ruby programming language and rake gem.
+Continuous integration made with travis
+Blog created with jekyll gem.
 
 Build website
 ```
-rake build_site
+jekyll serve
 
 ```
-Launch website
-```
-python -m SimpleHTTPServer
 
-```
-Open your brower at localhost:8000 to see the website
+Open your brower at localhost:4000 to see the website
 
-TODO:
+### TODO:
+
 1. Make an other version of the site with polymerjs
 2. Create a gruntfile process
   - Clean html
@@ -36,16 +32,15 @@ TODO:
   - Shneck-analysis
   - Email-analysis
 4. Integrate image logo of Iwheelshare, VBN, arkena, meteor to project
-6. Recreate blogsite style
-7. Add a custom 404 page if possible
-8. Correct articles - add english version
+5. Recreate blogsite style
+6. Add a custom 404 page if possible
+7. Correct articles - add english version
 
-
-DOING:
+### DOING:
 - Choose gulp, seems better and funny a [little tutorial](https://www.youtube.com/watch?v=dwSLFai8ovQ)
 
 
-DONE:
+### DONE:
 - Gulp base configuration
 - Migrate site from angularjs to jekyll
 - Include .travis integration
