@@ -14,7 +14,7 @@ jekyll serve
 
 ```
 
-Open your brower at localhost:4000 to see the website
+Open your browser at localhost:4000 to see the website
 
 ### TODO:
 
