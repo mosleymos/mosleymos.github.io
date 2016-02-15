@@ -37,10 +37,11 @@ Open your browser at localhost:4000 to see the website
 7. Correct articles - add english version
 
 ### DOING:
-- Choose gulp, seems better and funny a [little tutorial](https://www.youtube.com/watch?v=dwSLFai8ovQ)
-
 
 ### DONE:
 - Gulp base configuration
 - Migrate site from angularjs to jekyll
 - Include .travis integration
+
+### NOT DOING
+- Choose gulp, seems better and funny a [little tutorial](https://www.youtube.com/watch?v=dwSLFai8ovQ) 
