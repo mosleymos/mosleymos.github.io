@@ -31,6 +31,7 @@ Open your browser at localhost:4000 to see the website
   - 2 years information
   - Shneck-analysis
   - Email-analysis
+  - Don't forget Sinatra
 4. Integrate image logo of Iwheelshare, VBN, arkena, meteor to project
 5. Recreate blogsite style
 6. Add a custom 404 page if possible
