@@ -14,7 +14,7 @@ jekyll serve
 
 ```
 
-Open your brower at localhost:4000 to see the website
+Open your browser at localhost:4000 to see the website
 
 ### TODO:
 
@@ -31,16 +31,19 @@ Open your brower at localhost:4000 to see the website
   - 2 years information
   - Shneck-analysis
   - Email-analysis
+  - One liner - eye liner
+  - Don't forget Sinatra
 4. Integrate image logo of Iwheelshare, VBN, arkena, meteor to project
 5. Recreate blogsite style
 6. Add a custom 404 page if possible
 7. Correct articles - add english version
 
 ### DOING:
-- Choose gulp, seems better and funny a [little tutorial](https://www.youtube.com/watch?v=dwSLFai8ovQ)
-
 
 ### DONE:
 - Gulp base configuration
 - Migrate site from angularjs to jekyll
 - Include .travis integration
+
+### NOT DOING
+- Choose gulp, seems better and funny a [little tutorial](https://www.youtube.com/watch?v=dwSLFai8ovQ) 
