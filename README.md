@@ -40,6 +40,8 @@ Open your browser at localhost:4000 to see the website
 
 ### DOING:
 
+- Correct build error
+
 ### DONE:
 - Gulp base configuration
 - Migrate site from angularjs to jekyll
