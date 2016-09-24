@@ -18,34 +18,34 @@ Open your browser at localhost:4000 to see the website
 
 ### TODO:
 
-1. Make an other version of the site with polymerjs
-2. Create a gruntfile process
+- [ ] Make an other version of the site with polymerjs
+- [ ] Create a gruntfile process
   - Clean html
   - Compile scss
   - Concatenate css
   - Minify css
   - Minify js
   - Install livereload
-3. Article to finish
-  - VBn information
-  - 2 years information
-  - Shneck-analysis
-  - Email-analysis
-  - One liner - eye liner
-  - Don't forget Sinatra
-4. Integrate image logo of Iwheelshare, VBN, arkena, meteor to project
-5. Recreate blogsite style
-6. Add a custom 404 page if possible
-7. Correct articles - add english version
+- [ ] Integrate image logo of Iwheelshare, VBN, arkena, meteor to project
+- [ ] Recreate blogsite style
+- [ ] Add a custom 404 page if possible
+- [ ] Correct articles - add english version
 
 ### DOING:
+- [ ] Article to finish
 
-- Correct build error
+- VBn information
+- 2 years information
+- Shneck-analysis
+- Email-analysis
+- One liner - eye liner
+- Don't forget Sinatra
 
 ### DONE:
-- Gulp base configuration
-- Migrate site from angularjs to jekyll
-- Include .travis integration
+- [x] Correct build error
+- [x] Gulp base configuration
+- [x] Migrate site from angularjs to jekyll
+- [x] Include .travis integration
 
 ### NOT DOING
 - Choose gulp, seems better and funny a [little tutorial](https://www.youtube.com/watch?v=dwSLFai8ovQ) 
