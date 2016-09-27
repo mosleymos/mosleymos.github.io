@@ -41,6 +41,8 @@ Open your browser at localhost:4000 to see the website
 - One liner - eye liner
 - Don't forget Sinatra
 
+- [ ] Redo styles of blog - use of meteor to manage
+
 ### DONE:
 - [x] Correct build error
 - [x] Gulp base configuration
