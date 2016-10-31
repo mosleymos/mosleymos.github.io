@@ -181,7 +181,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 /*
   En ce qui concerne la background image
-  en créer une
+  en crÃ©er une
 */
 
 body{
@@ -227,7 +227,7 @@ a.mosleymos-blog-navigation-section-link {
 }
 
 .home {
-  background-color: white;
+  background-color: rgba(255,255,255,0.80);
   padding: 1em 1em;
   border-radius: 15px 15px;
 }
