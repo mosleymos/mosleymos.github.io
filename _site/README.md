@@ -18,32 +18,51 @@ Open your browser at localhost:4000 to see the website
 
 ### TODO:
 
-1. Make an other version of the site with polymerjs
-2. Create a gruntfile process
+- [ ] Make an other version of the site with polymerjs
+- [ ] Create a gruntfile process
   - Clean html
   - Compile scss
   - Concatenate css
   - Minify css
   - Minify js
   - Install livereload
-3. Article to finish
-  - VBn information
-  - 2 years information
-  - Shneck-analysis
-  - Email-analysis
-  - One liner - eye liner
-  - Don't forget Sinatra
-4. Integrate image logo of Iwheelshare, VBN, arkena, meteor to project
-5. Recreate blogsite style
-6. Add a custom 404 page if possible
-7. Correct articles - add english version
+- [ ] Integrate image logo of Iwheelshare, VBN, arkena, meteor to project
+- [ ] Recreate blogsite style
+- [ ] Add a custom 404 page if possible
+- [ ] Correct articles - add english version
 
 ### DOING:
+- [ ] Article to finish
+
+- VBn information
+- 2 years information
+- Shneck-analysis
+- Email-analysis
+- One liner - eye liner
+- Don't forget Sinatra
+
+- [ ] Redo styles of blog - use of meteor to manage
 
 ### DONE:
-- Gulp base configuration
-- Migrate site from angularjs to jekyll
-- Include .travis integration
+- [x] Correct build error
+- [x] Gulp base configuration
+- [x] Migrate site from angularjs to jekyll
+- [x] Include .travis integration
 
 ### NOT DOING
-- Choose gulp, seems better and funny a [little tutorial](https://www.youtube.com/watch?v=dwSLFai8ovQ) 
+- Choose gulp, seems better and funny a [little tutorial](https://www.youtube.com/watch?v=dwSLFai8ovQ)
+
+### To think about , idea
+Blog Audio + video avec Jekyll
+Idée = être beaucoup plus graphique
+Enregistrement audio + restitution écrites
+=> travail sur l'affichage et la navigation
+Ecriture des temps de lecture/ecriture/visionnage/ecoute
+Thème autour du graph
+Objet vie courante navigation ++
+Correction images
+ls -> terminal informatique pour écriture
+Test du firefox command line edition
+Mori => recherche pour chargement image first
+Voir les breakdown sur Emmet re:view
+Mouvement Design à faire

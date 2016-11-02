@@ -455,3 +455,42 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+.main-container {
+  padding: 1em 1em; }
+
+.mosleymos-blog-navigation {
+  display: flex;
+  align-content: space-between;
+  padding: 1em 1em;
+  border-radius: 15px 15px;
+  background-color: white; }
+
+.mosleymos-blog-navigation-section {
+  text-align: center;
+  flex: 1;
+  flex-basis: 30%; }
+
+a.mosleymos-blog-navigation-section-link {
+  font-size: 3em;
+  text-align: center;
+  color: black;
+  padding-bottom: -3em; }
+
+.styling-navigation {
+  padding-top: 3em; }
+
+.home {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1em 1em;
+  border-radius: 15px 15px; }
+
+@media (max-width: 865px) {
+  .mosleymos-blog-navigation {
+    display: block; }
+
+  .mosleymos-blog-navigation-section {
+    text-align: center; }
+
+  .logo-mosleymos-style {
+    height: 65px; } }

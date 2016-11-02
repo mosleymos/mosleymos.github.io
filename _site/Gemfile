@@ -1,5 +1,9 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
+ruby '2.2.2'
 
-gem "jekyll"
+gem 'jekyll'
 gem 'jekyll-compose', group: [:jekyll_plugins]
-gem "html-proofer"
+gem 'jekyll-paginate'
+gem 'bundler'
+gem 'rake'
+gem 'html-proofer'
