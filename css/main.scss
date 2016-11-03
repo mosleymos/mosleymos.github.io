@@ -67,7 +67,7 @@ $on-laptop:        800px;
 
   padding: 1em 1em;
   border-radius: 15px 15px;
-  background-color:white;
+  background-color: rgba(255,255,255,0.30);
 
 }
 
@@ -91,7 +91,7 @@ a.mosleymos-blog-navigation-section-link {
 }
 
 .home {
-  background-color: rgba(255,255,255,0.80);
+  background-color: rgba(255,255,255,0.30);
   padding: 1em 1em;
   border-radius: 15px 15px;
 }
@@ -111,4 +111,23 @@ a.mosleymos-blog-navigation-section-link {
   }
 }
 
+body{
+  background: url('../img/background_site_rendering.png');
+  background-size: cover;
+  width: 100%;
+}
+blockquote {
+  color: black;
+}
 
+a.post-link {
+  color:black;
+}
+
+a.post-link:visited {
+  color:black;
+}
+
+footer.site-footer{
+  background-color: rgb(255,255,255);
+}

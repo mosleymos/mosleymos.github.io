@@ -464,7 +464,7 @@ pre {
   align-content: space-between;
   padding: 1em 1em;
   border-radius: 15px 15px;
-  background-color: white; }
+  background-color: rgba(255, 255, 255, 0.3); }
 
 .mosleymos-blog-navigation-section {
   text-align: center;
@@ -481,7 +481,7 @@ a.mosleymos-blog-navigation-section-link {
   padding-top: 3em; }
 
 .home {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.3);
   padding: 1em 1em;
   border-radius: 15px 15px; }
 
@@ -494,3 +494,19 @@ a.mosleymos-blog-navigation-section-link {
 
   .logo-mosleymos-style {
     height: 65px; } }
+body {
+  background: url("../img/background_site_rendering.png");
+  background-size: cover;
+  width: 100%; }
+
+blockquote {
+  color: black; }
+
+a.post-link {
+  color: black; }
+
+a.post-link:visited {
+  color: black; }
+
+footer.site-footer {
+  background-color: white; }
