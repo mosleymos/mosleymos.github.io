@@ -20,9 +20,122 @@
 
   <body>
 
-          <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+      <header>
+      <nav>
+        <ul class='site-navigation'>
+          <li><a href="/" target="_blank" class='site-navigation-link'>Accueil</a></li>
+          <li><a href="/posts" target="_blank"class='site-navigation-link'>Posts</a></li>
+          <li><a href="/projects" target="_blank"class='site-navigation-link'>Projets</a></li>
+          <li><a href="/about" target="_blank"class='site-navigation-link'>A propos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+      <div class='background-stripe'> </div>
+      <div class='container'>
+
+        <div class='content-box'>
+           <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Jeet css</h1>
+    <p class="post-meta"><time datetime="2014-11-01T19:41:18+01:00" itemprop="datePublished">Nov 1, 2014</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <h3 id="jeet-a-css-framework-for-humans">JEET a css framework for humans</h3>
+
+<h5 id="french-version">French version</h5>
+
+<p>Récement j’ai découvert JEET un framework css assez simple</p>
+
+<p>Bien que j’use de bootstrap pour organiser le style des pages web , le code est quelque peu “bruyant” et “sale”.</p>
+
+<p>Je veux dire que par exemple pour user simplement 1 rangée en deux parties égales.
+Je dois écrire ce code</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'row'</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'col-md-6'</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'col-md-6'</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<p>C’est long et lorsque j’ai des douzaines et des douzaines de rangées à voir, c’est assez embêtant à lire.</p>
+
+<p>C’est alors j’ai découvert JEET qui possède une syntaxe plus simple que celle au dessus.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">column</span></code></pre></figure>
+
+<p>Je pense changer progressivement pour ce framework.</p>
+
+<p>Leur slogan “A grid system for humans” est génial.
+Voiçi le lien pour le projet <a href="http://jeet.gs">JEET</a>.</p>
+
+<h3 id="jeet-a-css-framework-for-humans-1">JEET a css framework for humans</h3>
+
+<h5 id="english-version">English version</h5>
+
+<p>Recently I’ve discovered JEET a css framework very simple.</p>
+
+<p>Although I use bootstrap in order to organize webpages, code it’s quite “noisy” and “dirty”</p>
+
+<p>I mean for instance in order to simply use 1 row divide in two equals parts 
+I need to write this code</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'row'</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'col-md-6'</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'col-md-6'</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<p>It’s quite long and when I’ve got to look after I’ve got dozen and dozen of rows It’s quite an hassle to read.</p>
+
+<p>Then I’ve discovered JEET which got a simpler syntax than above.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">column</span></code></pre></figure>
+
+<p>I think I’ll change progressively to this framework.</p>
+
+<p>Their slogan “A grid system for humans” sounds great.
+Here the link to the project <a href="http://jeet.gs">JEET</a>.</p>
+
+  </div>
+
+    
+	    <!--Disqus commentary -->
+	    <div id="disqus_thread"></div>
+	    <script type="text/javascript">
+		    /* * * CONFIGURATION VARIABLES * * */
+	    var disqus_shortname = 'mosleymos';
+
+	    /* * * DON'T EDIT BELOW THIS LINE * * */
+	    (function() {
+	     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	     })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+<div class="end-of-article"></div>
+
+
+</article>
+
+        </div>
+
+
+      </div>
 
 
   </body>

@@ -20,9 +20,104 @@
 
   <body>
 
-          <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+      <header>
+      <nav>
+        <ul class='site-navigation'>
+          <li><a href="/" target="_blank" class='site-navigation-link'>Accueil</a></li>
+          <li><a href="/posts" target="_blank"class='site-navigation-link'>Posts</a></li>
+          <li><a href="/projects" target="_blank"class='site-navigation-link'>Projets</a></li>
+          <li><a href="/about" target="_blank"class='site-navigation-link'>A propos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+      <div class='background-stripe'> </div>
+      <div class='container'>
+
+        <div class='content-box'>
+           <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Ruby grep</h1>
+    <p class="post-meta"><time datetime="2014-10-04T20:41:18+02:00" itemprop="datePublished">Oct 4, 2014</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <h5 id="french-version">French version</h5>
+
+<p>Un peu par hasard j’ai découvert que grep d’unix était présent en ruby.</p>
+
+<p>Ainsi sur un objet quelconque on peut greper pour trouver des methodes selon une regexp</p>
+
+<p><strong>.grep</strong> et <strong>.inspect</strong> sont mes methodes favorites pour verifier les objets sous une session pry.
+Quelques examples:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#Affiche toute les methodes de l'objet qui contienne "re"</span>
+<span class="no">Object</span><span class="p">.</span><span class="nf">methods</span><span class="p">.</span><span class="nf">grep</span> <span class="sr">/re/</span>
+
+<span class="c1">#Renvoie chaussette qui commence par ch</span>
+<span class="s2">"Les chaussettes de l'archiduchesse sont sèches"</span><span class="p">.</span><span class="nf">scan</span><span class="p">(</span><span class="sr">/\w+/</span><span class="p">).</span><span class="nf">grep</span> <span class="sr">/^ch/</span>
+
+<span class="c1"># Le .grep marche aussi avec les Array. On aura a utilser un range</span>
+<span class="c1"># va renvoyer un tableau comprenant tout les nombres entre 0 et 10</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">67</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="o">-</span><span class="mi">78</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span><span class="mi">1</span><span class="o">.</span><span class="mi">2</span><span class="p">,</span><span class="mi">45</span><span class="p">,</span><span class="mi">5</span><span class="o">.</span><span class="mi">5</span><span class="p">].</span><span class="nf">grep</span> <span class="mi">0</span><span class="p">.</span><span class="nf">.</span><span class="mi">10</span> </code></pre></figure>
+
+<p>.grep est une manière assez rapide pour filtrer.</p>
+
+<h5 id="english-version">English version</h5>
+
+<p>I’ve found unix grep was is available in ruby.</p>
+
+<p>So in any object we could use grep in order to find object’s methods with a regular expression.</p>
+
+<p><strong>.grep</strong> with <strong>.inspect</strong> are my favorites methods in order to check objects on a pry session.
+Some examples:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#Display all objects methods which match regular expression</span>
+<span class="no">Object</span><span class="p">.</span><span class="nf">methods</span><span class="p">.</span><span class="nf">grep</span> <span class="sr">/re/</span>
+
+<span class="c1">#Send chaussetes which begin with ch</span>
+<span class="s2">"Les chaussettes de l'archiduchesse sont sèches"</span><span class="p">.</span><span class="nf">scan</span><span class="p">(</span><span class="sr">/\w+/</span><span class="p">).</span><span class="nf">grep</span> <span class="sr">/^ch/</span>
+
+<span class="c1"># .grep work with Array. You'll need to use a range.</span>
+<span class="c1"># It will send all number between the range</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">67</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="o">-</span><span class="mi">78</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span><span class="mi">1</span><span class="o">.</span><span class="mi">2</span><span class="p">,</span><span class="mi">45</span><span class="p">,</span><span class="mi">5</span><span class="o">.</span><span class="mi">5</span><span class="p">].</span><span class="nf">grep</span> <span class="mi">0</span><span class="p">.</span><span class="nf">.</span><span class="mi">10</span> </code></pre></figure>
+
+<p>.grep is a fast way to filter.</p>
+
+  </div>
+
+    
+	    <!--Disqus commentary -->
+	    <div id="disqus_thread"></div>
+	    <script type="text/javascript">
+		    /* * * CONFIGURATION VARIABLES * * */
+	    var disqus_shortname = 'mosleymos';
+
+	    /* * * DON'T EDIT BELOW THIS LINE * * */
+	    (function() {
+	     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	     })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+<div class="end-of-article"></div>
+
+
+</article>
+
+        </div>
+
+
+      </div>
 
 
   </body>

@@ -1,0 +1,14 @@
+.site-navigation {
+  display: flex;
+}
+
+.site-navigation-link {
+  color: $basic-font-themed-color;
+  font-size: 22px;
+  list-style:none;
+  padding-right: 1em;
+}
+
+a.site-navigation-link {
+  text-decoration:none;
+}

@@ -5,9 +5,21 @@
 
   <body>
 
-          <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+  {% include header.html %}
+
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+      <div class='background-stripe'> </div>
+      <div class='container'>
+
+        <div class='content-box'>
+           {{ content }}
+        </div>
+
+
+      </div>
 
 
   </body>
