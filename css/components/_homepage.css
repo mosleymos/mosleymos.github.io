@@ -1,23 +1,18 @@
 .content-homepage {
   padding: 125px 42px;
-  text-align: center;
-}
+  text-align: center; }
 
 .content-homepage-welcome-title {
   font-size: 28px;
   color: black;
-  font-style: Sans-serif;
-  text-align: center;
-}
+  font-style: Sans-serif; }
 
 .content-homepage-slogan {
   font-style: italic;
   font-size: 18px;
-  color:black;
-  text-align: center;
-}
+  color: black; }
 
 .content-homepage-short-presentation {
-  margin-top: 33px;
-  text-align: center;
-}
+  margin-top: 33px; }
+
+/*# sourceMappingURL=_homepage.css.map */

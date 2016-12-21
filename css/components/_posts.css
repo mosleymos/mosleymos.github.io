@@ -1,0 +1,14 @@
+.post-content {
+  text-align: center;
+  overflow: auto; }
+
+.post-list {
+  list-style-type: none; }
+
+.post-link {
+  text-decoration: none;
+  font-size: 18px;
+  font: sans-serif;
+  color: black; }
+
+/*# sourceMappingURL=_posts.css.map */

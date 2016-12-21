@@ -1,0 +1,71 @@
+/*
+Error: Undefined variable: "$site-second-theme-color".
+        on line 4 of css/components/_content-box.scss
+
+1: .content-box {
+2:   height: 523px;
+3:   width: 387px;
+4:   background-color: $site-second-theme-color;
+5:   padding: .8em .8em;
+6:   margin-left: 131px;
+7:   margin-right: 131px;
+8:   box-shadow: 17px 10px 54px 14px rgba(0,0,0,0.36);
+9: }
+
+Backtrace:
+css/components/_content-box.scss:4
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:294:in `watch'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/plugin.rb:109:in `method_missing'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/home/mori/.rvm/gems/ruby-2.2.2/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+/home/mori/.rvm/gems/ruby-2.2.2/bin/sass:23:in `load'
+/home/mori/.rvm/gems/ruby-2.2.2/bin/sass:23:in `<main>'
+/home/mori/.rvm/gems/ruby-2.2.2/bin/ruby_executable_hooks:15:in `eval'
+/home/mori/.rvm/gems/ruby-2.2.2/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$site-second-theme-color\".\A         on line 4 of css/components/_content-box.scss\A \A 1: .content-box {\A 2:   height: 523px;\A 3:   width: 387px;\A 4:   background-color: $site-second-theme-color;\A 5:   padding: .8em .8em;\A 6:   margin-left: 131px;\A 7:   margin-right: 131px;\A 8:   box-shadow: 17px 10px 54px 14px rgba(0,0,0,0.36);\A 9: }"; }

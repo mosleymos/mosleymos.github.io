@@ -1,6 +1,18 @@
 body {
   background-color: black; }
 
+h1 h2 h3 h4 h5 {
+  font: sans-serif; }
+
+li {
+  list-style-type: none;
+  font-size: 18px; }
+
+p {
+  font-size: 18px;
+  font: sans-serif;
+  text-align: left; }
+
 .container {
   display: flex;
   flex-direction: row-reverse; }
@@ -41,14 +53,41 @@ a.site-navigation-link {
 .content-homepage-welcome-title {
   font-size: 28px;
   color: black;
-  font-style: Sans-serif; }
+  font-style: Sans-serif;
+  text-align: center; }
 
 .content-homepage-slogan {
   font-style: italic;
   font-size: 18px;
-  color: black; }
+  color: black;
+  text-align: center; }
 
 .content-homepage-short-presentation {
-  margin-top: 33px; }
+  margin-top: 33px;
+  text-align: center; }
+
+.post-header {
+  text-align: center; }
+
+.post-title {
+  font-size: 28px; }
+
+.post-content {
+  margin: 1em auto;
+  padding: 1em auto;
+  text-align: center;
+  overflow: auto; }
+
+.post-list {
+  padding: 0;
+  margin: 0;
+  line-height: 35px;
+  list-style-type: none; }
+
+.post-link {
+  text-decoration: none;
+  font-size: 18px;
+  font: sans-serif;
+  color: black; }
 
 /*# sourceMappingURL=main.css.map */
