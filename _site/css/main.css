@@ -13,6 +13,11 @@ p {
   font: sans-serif;
   text-align: left; }
 
+a {
+  color: #da9db7;
+  text-decoration: none;
+  font-size: 17px; }
+
 .container {
   display: flex;
   flex-direction: row-reverse; }
@@ -48,11 +53,11 @@ a.site-navigation-link {
   z-index: -1; }
 
 .content-homepage {
-  padding: 125px 42px;
+  padding: 120px 40px;
   text-align: center; }
 
 .content-homepage-welcome-title {
-  font-size: 28px;
+  font-size: 24px;
   color: black;
   font-style: Sans-serif;
   text-align: center; }
@@ -64,14 +69,18 @@ a.site-navigation-link {
   text-align: center; }
 
 .content-homepage-short-presentation {
-  margin-top: 33px;
+  margin-top: 30px;
   text-align: center; }
 
 .post-header {
   text-align: center; }
 
 .post-title {
-  font-size: 28px; }
+  font-size: 28px;
+  text-align: center; }
+
+.post-meta {
+  text-align: center; }
 
 .post-content {
   margin: 1em auto;
