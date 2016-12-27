@@ -7,18 +7,9 @@ categories: jekyll update
 
 ### Pensée du jour
 
-##### French version
 
 La pensée du jour :
 
 > Un esprit sain dans un corps sain ?
 
 Faut dire que pour l'instant j'en suis loin du compte mais je m'en approche.
-
-##### English version
-
-Tought of the day
-
-> Mens sana in corpore sano ?
-
-I'm very far far away from that, but I'm near
