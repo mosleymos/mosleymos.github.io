@@ -99,5 +99,7 @@ a.site-navigation-link {
   font-size: 18px;
   font: sans-serif;
   color: black; }
+  .post-link:hover {
+    color: #da9db7; }
 
 /*# sourceMappingURL=main.css.map */
