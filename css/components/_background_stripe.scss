@@ -5,4 +5,10 @@
   position: absolute;
   margin-top: 122px;
   z-index: -1;
+  display:inline;
+
+  @media screen and (max-width: 400px){
+    display: none;
+  }
+
 }
