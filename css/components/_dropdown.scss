@@ -1,0 +1,22 @@
+.dropdown-hidden-menu {
+  position: fixed;
+  text-align: left;
+  padding: 1em 1em;
+  width: 80%;
+
+  @media screen and (min-width: 412px){
+    display: none;
+  }
+}
+
+.dropdown-menu {
+
+}
+
+.dropdown-item {
+  display:inline-block;
+  float: left;
+  padding-right:.3em;
+  padding-left:.3em;
+  font-size:.8em;
+}
