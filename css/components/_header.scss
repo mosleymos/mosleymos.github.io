@@ -1,5 +1,23 @@
+nav {
+  background-color: black;
+}
+
 .site-navigation {
   display: flex;
+  background-color: black;
+  width: 100%;
+  position: fixed;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  @media screen and (max-width: 412px){
+    display: none;
+  }
+
 }
 
 .site-navigation-link {
