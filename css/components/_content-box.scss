@@ -1,12 +1,12 @@
 .content-box {
-  height: 523px;
   width: 387px;
   background-color: $site-second-theme-color;
-  padding: .8em .8em;
-  margin-left: 131px;
-  margin-right: 131px;
+  padding: 4em 2em;
+  margin-left: 3.5em;
+  margin-right: 3.5em;
   box-shadow: 17px 10px 54px 14px rgba(0,0,0,0.36);
   overflow: auto;
+  flex: 1;
 
   @media screen and (min-width: 400px){
     overflow: inherit;
