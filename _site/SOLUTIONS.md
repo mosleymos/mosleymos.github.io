@@ -34,3 +34,7 @@ SVG inline twitter
 
 Good codepen about social media svg
 [codepen](https://codepen.io/ruandre/pen/howFi)
+
+
+Good site for favicon generation
+[favicon generator](http://www.favicon-generator.org/)
