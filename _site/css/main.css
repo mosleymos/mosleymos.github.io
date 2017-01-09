@@ -85,6 +85,7 @@ a.site-navigation-link {
 
 .content-homepage-slogan {
   font-style: italic;
+  font-weight: bold;
   font-size: 18px;
   color: black;
   text-align: center; }
@@ -145,8 +146,12 @@ article.post {
 input[type='email'] {
   padding-left: 1em; }
 
+textarea {
+  padding: 0em 0em; }
+
 textarea.contact-message {
-  padding: 1em; }
+  padding-top: 1em;
+  padding-left: 1em; }
 
 .contact-form {
   display: flex;
@@ -161,8 +166,6 @@ textarea.contact-message {
   border: none; }
 
 .contact-message {
-  padding: 1em 0em;
-  margin: .2em 0em;
   font-size: 22px;
   border: none;
   color: #9f3f69;
@@ -171,7 +174,7 @@ textarea.contact-message {
 .contact-submit {
   padding: 1em 0em;
   margin: .3em 0em;
-  font-size: 22px;
+  font-size: 28px;
   color: #9f3f69;
   background-color: #501f34;
   border: none; }
@@ -182,24 +185,26 @@ textarea.contact-message {
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #9f3f69;
-  padding: 1em 1em; }
+  padding-left: 1em; }
 
 ::-moz-placeholder {
   /* Firefox 19+ */
   color: #9f3f69;
-  padding: 1em 1em; }
+  padding-left: 1em; }
 
 ::-ms-input-placeholder {
   /* IE 10+ */
   color: #9f3f69;
-  padding: 1em 1em; }
+  padding-left: 1em; }
 
 ::-o-placeholder {
   /* Firefox 19+ */
   color: #9f3f69;
-  padding: 1em 1em;
+  padding-left: 1em;
   margin: 0em 1em; }
 
+/* required styling */
+/* Snippet from https://css-tricks.com/almanac/selectors/r/required/  */
 .dropdown-hidden-menu {
   position: fixed;
   text-align: left;
