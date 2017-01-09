@@ -141,6 +141,65 @@ article.post {
 .contact {
   text-align: center; }
 
+/* Contact form styles */
+input[type='email'] {
+  padding-left: 1em; }
+
+textarea.contact-message {
+  padding: 1em; }
+
+.contact-form {
+  display: flex;
+  flex-direction: column; }
+
+.contact-email {
+  padding: 1em 0em;
+  margin: .3em 0em;
+  font-size: 22px;
+  border: none;
+  color: #9f3f69;
+  border: none; }
+
+.contact-message {
+  padding: 1em 0em;
+  margin: .2em 0em;
+  font-size: 22px;
+  border: none;
+  color: #9f3f69;
+  border: none; }
+
+.contact-submit {
+  padding: 1em 0em;
+  margin: .3em 0em;
+  font-size: 22px;
+  color: #9f3f69;
+  background-color: #501f34;
+  border: none; }
+  .contact-submit:hover {
+    color: #da9db7;
+    background-color: #2d111d; }
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #9f3f69;
+  padding: 1em 1em; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #9f3f69;
+  padding: 1em 1em; }
+
+::-ms-input-placeholder {
+  /* IE 10+ */
+  color: #9f3f69;
+  padding: 1em 1em; }
+
+::-o-placeholder {
+  /* Firefox 19+ */
+  color: #9f3f69;
+  padding: 1em 1em;
+  margin: 0em 1em; }
+
 .dropdown-hidden-menu {
   position: fixed;
   text-align: left;
