@@ -10,5 +10,3 @@ Des fois je me demande s'il est nécessaire de d'avoir plusieurs langages de pro
 Le réponse est à nuancer, la question n'est pas le langage mais ce que l'on fait avec.
 
 J'ai trouvé par l'intermédiaire d'une connaissance au Loop ce pc emulé sous javascript [Jslinux](http://bellard.org/jslinux/).
-
-A réfléchir donc.

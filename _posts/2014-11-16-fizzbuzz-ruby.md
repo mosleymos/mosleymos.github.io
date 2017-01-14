@@ -22,3 +22,5 @@ end
 ```
 
 Assez marrant mais surement non utilisable en production. Je continue d'apprendre.
+
+D'ailleurs voiçi un fil [reddit](https://www.reddit.com/r/fizzbuzz/) dédié au fizzbuzz.

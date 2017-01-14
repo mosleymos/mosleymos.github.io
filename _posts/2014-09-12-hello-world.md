@@ -6,8 +6,8 @@ categories: jekyll update
 ---
 
 
-C'est mon premiet post, et franchement je ne sais pas par quoi commencer.
+C'est mon premiet post, et je ne sais pas par quoi commencer.
 
-Peut être parce la décision de créer ce blog a été prise sur un coup de tête
+La création de ce blog s'est effectué sur un coup de tête
 
-Je voulais essayer le service github personnal page et nous voilà.
+Je voulais essayer le service [github pages](https://pages.github.com/).

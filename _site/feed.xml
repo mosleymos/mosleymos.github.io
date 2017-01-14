@@ -6,8 +6,8 @@
 </description>
     <link>http://mosleymos.github.io/</link>
     <atom:link href="http://mosleymos.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 Jan 2017 20:48:45 +0100</pubDate>
-    <lastBuildDate>Mon, 09 Jan 2017 20:48:45 +0100</lastBuildDate>
+    <pubDate>Sat, 14 Jan 2017 20:59:23 +0100</pubDate>
+    <lastBuildDate>Sat, 14 Jan 2017 20:59:23 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -47,7 +47,7 @@
         <title>Codelab css testing</title>
         <description>&lt;h3 id=&quot;codelab-ruby-spec&quot;&gt;Codelab ruby spec&lt;/h3&gt;
 
-&lt;p&gt;La semaine dernière le 30 avril j’ai participé à un codelab au sein du NUMA.&lt;/p&gt;
+&lt;p&gt;La semaine dernière le 30 avril j’ai participé à un codelab au sein du &lt;a href=&quot;https://paris.numa.co/&quot;&gt;NUMA&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Durant celui ci j’ai essayé avec un autre développeur de créer une librairie pour tester le code CSS, un sujet que j’avais déjà evoqué auparavant.&lt;/p&gt;
 
@@ -75,8 +75,6 @@
 &lt;p&gt;Le réponse est à nuancer, la question n’est pas le langage mais ce que l’on fait avec.&lt;/p&gt;
 
 &lt;p&gt;J’ai trouvé par l’intermédiaire d’une connaissance au Loop ce pc emulé sous javascript &lt;a href=&quot;http://bellard.org/jslinux/&quot;&gt;Jslinux&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A réfléchir donc.&lt;/p&gt;
 </description>
         <pubDate>Fri, 10 Apr 2015 20:41:18 +0200</pubDate>
         <link>http://mosleymos.github.io/jekyll/update/2015/04/10/javascript-linux-emulation.html</link>
@@ -93,8 +91,9 @@
         <title>Css testing</title>
         <description>&lt;p&gt;Le css un langage de type impératif pour rendre les pages html plus belles. Le css est ma bête noire … cependant je commence à peine à l’apprécier ceci du fait que j’ai appris qu’il était possible de tester du css.&lt;/p&gt;
 
-&lt;p&gt;Oui ! Vous avez bien entendu on peut tester du css, des framework de test en Css existent
-Different type de framework css existent pour différentes fonctionnalités.&lt;/p&gt;
+&lt;p&gt;Oui ! Vous avez bien entendu on peut tester du css, des framework de test en Css existent&lt;/p&gt;
+
+&lt;p&gt;Different type de framework css existent pour différentes fonctionnalités.&lt;/p&gt;
 
 &lt;p&gt;Parmi ceux que j’ai découvert j’ai trouvé:&lt;/p&gt;
 
@@ -104,8 +103,9 @@ Different type de framework css existent pour différentes fonctionnalités.&lt;
   &lt;li&gt;Hardy&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;C’est des framework qui sont encore un peu en state of the art (sauf Galen).
-Je vais je pense désormais m’interesser au Ui testing&lt;/p&gt;
+&lt;p&gt;C’est des framework qui sont encore un peu en state of the art (sauf Galen).&lt;/p&gt;
+
+&lt;p&gt;Je vais je pense désormais m’interesser au Ui testing&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.creativebloq.com/css3/4-tools-automatic-css-testing-7133777&quot;&gt;4 tools automatic Css Testing&lt;/a&gt;&lt;/p&gt;
 
@@ -141,15 +141,23 @@ Je vais je pense désormais m’interesser au Ui testing&lt;/p&gt;
 
 &lt;p&gt;Les moments robot gangsta étaient marrants.&lt;/p&gt;
 
-&lt;p&gt;Cependant une des interrogation qui m’est venue durant le film (et que je pense est un objectif) est le fait d’utiliser la machine pour le maintien de l’ordre.&lt;/p&gt;
+&lt;p&gt;Durant le film une interrogation m’est venue durant le film. Elle concernait le fait d’utiliser la machine pour le maintien de l’ordre.&lt;/p&gt;
 
 &lt;p&gt;Des représentant de la loi et l’ordre, sous la forme de machines.&lt;/p&gt;
 
-&lt;p&gt;Le prochain avenger suivra je pense cette optique.&lt;/p&gt;
-
 &lt;p&gt;Il faut croire qu’un des rêves des nations est d’avoir une armée de robots.&lt;/p&gt;
 
-&lt;p&gt;Bien qu’au final ce l’humain qui devra payer la facture.&lt;/p&gt;
+&lt;p&gt;En réflechissant ces armées de robots ont des avantages:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Disponibilité 24h/24h&lt;/li&gt;
+  &lt;li&gt;Absence d’égo&lt;/li&gt;
+  &lt;li&gt;Pas de grève&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Mais je pense au final ce sera l’humain qui devra payer la facture.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YpAn83cXHvU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 </description>
         <pubDate>Tue, 24 Mar 2015 19:41:18 +0100</pubDate>
@@ -170,10 +178,9 @@ Je vais je pense désormais m’interesser au Ui testing&lt;/p&gt;
 &lt;p&gt;La pensée du jour :&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Un esprit sain dans un corps sain ?&lt;/p&gt;
+  &lt;p&gt;Un esprit sain dans un corps sain&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Faut dire que pour l’instant j’en suis loin du compte mais je m’en approche.&lt;/p&gt;
 </description>
         <pubDate>Mon, 02 Mar 2015 19:41:18 +0100</pubDate>
         <link>http://mosleymos.github.io/jekyll/update/2015/03/02/corpore-sano.html</link>
@@ -229,6 +236,8 @@ J’ai essayé durant ces exercices de résoudre quelques katas avec une ligne d
 &lt;/div&gt;
 
 &lt;p&gt;Assez marrant mais surement non utilisable en production. Je continue d’apprendre.&lt;/p&gt;
+
+&lt;p&gt;D’ailleurs voiçi un fil &lt;a href=&quot;https://www.reddit.com/r/fizzbuzz/&quot;&gt;reddit&lt;/a&gt; dédié au fizzbuzz.&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Nov 2014 19:41:18 +0100</pubDate>
         <link>http://mosleymos.github.io/jekyll/update/2014/11/16/fizzbuzz-ruby.html</link>
@@ -249,8 +258,7 @@ J’ai essayé durant ces exercices de résoudre quelques katas avec une ligne d
 
 &lt;p&gt;Bien que j’use de bootstrap pour organiser le style des pages web , le code est quelque peu “bruyant” et “sale”.&lt;/p&gt;
 
-&lt;p&gt;Je veux dire que par exemple pour user simplement 1 rangée en deux parties égales.
-Je dois écrire ce code&lt;/p&gt;
+&lt;p&gt;Par exemple pour user simplement une rangée en deux parties égales. Je dois écrire ce code&lt;/p&gt;
 
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'row'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
@@ -264,7 +272,7 @@ Je dois écrire ce code&lt;/p&gt;
 
 &lt;p&gt;C’est long et lorsque j’ai des douzaines et des douzaines de rangées à voir, c’est assez embêtant à lire.&lt;/p&gt;
 
-&lt;p&gt;C’est alors j’ai découvert JEET qui possède une syntaxe plus simple que celle au dessus.&lt;/p&gt;
+&lt;p&gt;JEET qui possède une syntaxe plus simple que celle au dessus.&lt;/p&gt;
 
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 column
@@ -274,8 +282,9 @@ column
 
 &lt;p&gt;Je pense changer progressivement pour ce framework.&lt;/p&gt;
 
-&lt;p&gt;Leur slogan “A grid system for humans” est génial.
-Voiçi le lien pour le projet &lt;a href=&quot;http://jeet.gs&quot;&gt;JEET&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Leur slogan “A grid system for humans” est génial.&lt;/p&gt;
+
+&lt;p&gt;Voiçi le lien pour le projet &lt;a href=&quot;http://jeet.gs&quot;&gt;JEET&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Nov 2014 19:41:18 +0100</pubDate>
         <link>http://mosleymos.github.io/jekyll/update/2014/11/01/jeet-css.html</link>

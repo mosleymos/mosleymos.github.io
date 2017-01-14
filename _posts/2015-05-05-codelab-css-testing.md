@@ -8,7 +8,7 @@ categories: jekyll update
 ### Codelab ruby spec
 
 
-La semaine dernière le 30 avril j'ai participé à un codelab au sein du NUMA.
+La semaine dernière le 30 avril j'ai participé à un codelab au sein du [NUMA](https://paris.numa.co/).
 
 Durant celui ci j'ai essayé avec un autre développeur de créer une librairie pour tester le code CSS, un sujet que j'avais déjà evoqué auparavant.
 
