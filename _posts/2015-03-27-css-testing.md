@@ -8,15 +8,17 @@ categories: jekyll update
 Le css un langage de type impératif pour rendre les pages html plus belles. Le css est ma bête noire ... cependant je commence à peine à l'apprécier ceci du fait que j'ai appris qu'il était possible de tester du css.
 
 Oui ! Vous avez bien entendu on peut tester du css, des framework de test en Css existent
+
 Different type de framework css existent pour différentes fonctionnalités.
 
 Parmi ceux que j'ai découvert j'ai trouvé:
 
-  - Galen
-  - Cactus
-  - Hardy
+- Galen
+- Cactus
+- Hardy
 
 C'est des framework qui sont encore un peu en state of the art (sauf Galen).
+
 Je vais je pense désormais m'interesser au Ui testing
 
 
