@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DecodeBlog</title>
+    <description>&quot;I talk to machines and often to humans.&quot;... This is my motto, and you're in a blog about programming and other stuff.
+</description>
+    <link>http://mosleymos.github.io//</link>
+    <atom:link href="http://mosleymos.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 25 May 2017 12:12:41 +0200</pubDate>
+    <lastBuildDate>Thu, 25 May 2017 12:12:41 +0200</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;Pour améliorer l’usage de mon blog, j’ai décidé de passer à &lt;a href=&quot;http://jekyllrb.com&quot;&gt;jekyll&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Feb 2016 19:41:18 +0100</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2016/02/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2016/02/01/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Violence</title>
+        <description>&lt;div class=&quot;panel-body&quot;&gt;
+&lt;blockquote&gt;&quot;La violence: une force faible&quot;&lt;/blockquote&gt;
+&lt;h5&gt;Vladimir Jankélévitch&lt;/h5&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 29 Nov 2015 19:41:18 +0100</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2015/11/29/violence.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/11/29/violence.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Codelab css testing</title>
+        <description>&lt;h3 id=&quot;codelab-ruby-spec&quot;&gt;Codelab ruby spec&lt;/h3&gt;
+
+&lt;p&gt;La semaine dernière le 30 avril j’ai participé à un codelab au sein du &lt;a href=&quot;https://paris.numa.co/&quot;&gt;NUMA&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Durant celui ci j’ai essayé avec un autre développeur de créer une librairie pour tester le code CSS, un sujet que j’avais déjà evoqué auparavant.&lt;/p&gt;
+
+&lt;p&gt;Le résultat de cette expérimentation se trouve au sein de ce &lt;a href=&quot;https://gist.github.com/simonc/dd5c4bcb637e50fceb71&quot;&gt;gist&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Le code teste si deux zones de css se superposent “hoverlap” entre elles, mais aussi verifie si un hover est effectué sur un élément. C’est une première étape mais bon en deux petites heures je trouve que c’est pas mal.&lt;/p&gt;
+
+&lt;p&gt;Le test fonctionne dans le cadre d’une application Rails.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 May 2015 20:41:18 +0200</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2015/05/05/codelab-css-testing.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/05/05/codelab-css-testing.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Javascript linux</title>
+        <description>&lt;p&gt;Des fois je me demande s’il est nécessaire de d’avoir plusieurs langages de programmation ?&lt;/p&gt;
+
+&lt;p&gt;Le réponse est à nuancer, la question n’est pas le langage mais ce que l’on fait avec.&lt;/p&gt;
+
+&lt;p&gt;J’ai trouvé par l’intermédiaire d’une connaissance au Loop ce pc emulé sous javascript &lt;a href=&quot;http://bellard.org/jslinux/&quot;&gt;Jslinux&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Apr 2015 20:41:18 +0200</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2015/04/10/javascript-linux-emulation.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/04/10/javascript-linux-emulation.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Css testing</title>
+        <description>&lt;p&gt;Le css un langage de type impératif pour rendre les pages html plus belles. Le css est ma bête noire … cependant je commence à peine à l’apprécier ceci du fait que j’ai appris qu’il était possible de tester du css.&lt;/p&gt;
+
+&lt;p&gt;Oui ! Vous avez bien entendu on peut tester du css, des framework de test en Css existent&lt;/p&gt;
+
+&lt;p&gt;Different type de framework css existent pour différentes fonctionnalités.&lt;/p&gt;
+
+&lt;p&gt;Parmi ceux que j’ai découvert j’ai trouvé:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Galen&lt;/li&gt;
+  &lt;li&gt;Cactus&lt;/li&gt;
+  &lt;li&gt;Hardy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;C’est des framework qui sont encore un peu en state of the art (sauf Galen).&lt;/p&gt;
+
+&lt;p&gt;Je vais je pense désormais m’interesser au Ui testing&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.creativebloq.com/css3/4-tools-automatic-css-testing-7133777&quot;&gt;4 tools automatic Css Testing&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://css-tricks.com/automating-css-regression-testing/&quot;&gt;Automating css regression testing&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.tutorialspoint.com/software_testing_dictionary/use_interface_testing&quot;&gt;Tutorials point Ui testing&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://tldr.huddle.com/blog/css-testing/&quot;&gt;Css testing&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.lullabot.com/blog/article/css-regression-testing-resemblejs&quot;&gt;CSS Regression testing with resemble.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://csste.st/&quot;&gt;CssTe.st&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Une vidéo assez inspirante sur le css &lt;a href=&quot;https://www.youtube.com/watch?v=2PU6JX4S7zI&quot;&gt;Automated css testing&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 27 Mar 2015 19:41:18 +0100</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2015/03/27/css-testing.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/03/27/css-testing.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Movie news</title>
+        <description>&lt;h3 id=&quot;chappie&quot;&gt;Chappie&lt;/h3&gt;
+
+&lt;p&gt;Je suis allé récemment voir le film chappie, c’était un film marrant, sympa.&lt;/p&gt;
+
+&lt;p&gt;Les moments robot gangsta étaient marrants.&lt;/p&gt;
+
+&lt;p&gt;Durant le film une interrogation m’est venue durant le film. Elle concernait le fait d’utiliser la machine pour le maintien de l’ordre.&lt;/p&gt;
+
+&lt;p&gt;Des représentant de la loi et l’ordre, sous la forme de machines.&lt;/p&gt;
+
+&lt;p&gt;Il faut croire qu’un des rêves des nations est d’avoir une armée de robots.&lt;/p&gt;
+
+&lt;p&gt;En réflechissant ces armées de robots ont des avantages:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Disponibilité 24h/24h&lt;/li&gt;
+  &lt;li&gt;Absence d’égo&lt;/li&gt;
+  &lt;li&gt;Pas de grève&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Mais je pense au final ce sera l’humain qui devra payer la facture.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YpAn83cXHvU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+</description>
+        <pubDate>Tue, 24 Mar 2015 19:41:18 +0100</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2015/03/24/movie-news.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/03/24/movie-news.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Corpore Sano</title>
+        <description>&lt;h3 id=&quot;pense-du-jour&quot;&gt;Pensée du jour&lt;/h3&gt;
+
+&lt;p&gt;La pensée du jour :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Un esprit sain dans un corps sain&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Mon, 02 Mar 2015 19:41:18 +0100</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2015/03/02/corpore-sano.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/03/02/corpore-sano.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Jedi jihad</title>
+        <description>&lt;p&gt;Aujourd’hui, un jeu de mots pendant une pause café m’a fait rire, un collègue André m’a parlé de la nouvelle série de Disney sur Star Wars: Star Wars Rebels.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;‘Jedi Jihad’&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Je me suis marré des petites implications qu’amenait et le dessin animé.&lt;/p&gt;
+
+&lt;p&gt;Heurement que c’est pour les enfants.&lt;/p&gt;
+
+&lt;p&gt;Il faut croire que depuis les attentats de Charlie Hebdo (1 mois maintenant) l’humour est toujours présent, j’ai vraiment l’esprit tordu.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Feb 2015 19:41:18 +0100</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2015/02/11/jedi-jihad.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/02/11/jedi-jihad.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Fizzbuzz</title>
+        <description>&lt;h3 id=&quot;long-code&quot;&gt;Long code&lt;/h3&gt;
+
+&lt;p&gt;Récemment j’ai fait quelques katas en ruby, javascript et python sur le site Codewars.
+J’ai essayé durant ces exercices de résoudre quelques katas avec une ligne de code.&lt;/p&gt;
+
+&lt;p&gt;Exemple Fizzbuzz:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;fizzbuzz&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;FizzBuzz&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Buzz&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Fizz&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Assez marrant mais surement non utilisable en production. Je continue d’apprendre.&lt;/p&gt;
+
+&lt;p&gt;D’ailleurs voiçi un fil &lt;a href=&quot;https://www.reddit.com/r/fizzbuzz/&quot;&gt;reddit&lt;/a&gt; dédié au fizzbuzz.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 16 Nov 2014 19:41:18 +0100</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2014/11/16/fizzbuzz-ruby.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2014/11/16/fizzbuzz-ruby.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Jeet css</title>
+        <description>&lt;h3 id=&quot;jeet-a-css-framework-for-humans&quot;&gt;JEET a css framework for humans&lt;/h3&gt;
+
+&lt;p&gt;Récement j’ai découvert JEET un framework css assez simple&lt;/p&gt;
+
+&lt;p&gt;Bien que j’use de bootstrap pour organiser le style des pages web , le code est quelque peu “bruyant” et “sale”.&lt;/p&gt;
+
+&lt;p&gt;Par exemple pour user simplement une rangée en deux parties égales. Je dois écrire ce code&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'row'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'col-md-6'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'col-md-6'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;C’est long et lorsque j’ai des douzaines et des douzaines de rangées à voir, c’est assez embêtant à lire.&lt;/p&gt;
+
+&lt;p&gt;JEET qui possède une syntaxe plus simple que celle au dessus.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+column
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Je pense changer progressivement pour ce framework.&lt;/p&gt;
+
+&lt;p&gt;Leur slogan “A grid system for humans” est génial.&lt;/p&gt;
+
+&lt;p&gt;Voiçi le lien pour le projet &lt;a href=&quot;http://jeet.gs&quot;&gt;JEET&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Nov 2014 19:41:18 +0100</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2014/11/01/jeet-css.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2014/11/01/jeet-css.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
