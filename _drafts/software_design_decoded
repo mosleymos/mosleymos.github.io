@@ -1,0 +1,43 @@
+Lecture du livre 
+Software Design Decoded - 66 ways experts think par Marian Petre et André van der Hoek, illustrations par Yen Quach
+
+Livre court, qui est en fait un carnet sur lequel sont notés des (conseils, maximes ou aphorismes) sur ce qu'est la manière de penser d'un expert
+Ce livre est un recueil des "insights" d'un expert en software design
+
+Le Livre contient 66 de ces observations
+Néammoins ces 66 observations sont séparés en plusieurs parties...
+
+Experts keep it simple
+
+  prefer simple solutions
+  solve simpler problems first
+  divide and conquer
+  do not overgeneralize
+  design elegant abstractions
+  use metaphor
+  
+Experts collaborate
+  prefer working with other
+  reach out 
+  check with others continually
+  involve the user
+  socially embed and reinforce good practice
+  agree to disagree
+  
+Experts borrow
+  prefer solutions that they know work
+  look around
+  take inspiration from wherever they can
+  use analogy
+  use design methods (selectively)
+  experts network
+
+Experts break the rules
+
+Experts sketch
+Experts work with uncertainity
+Experts are not affraid
+Experts iterate
+Experts test
+Experts reflect
+Experts keep going
