@@ -24,5 +24,4 @@ En réflechissant ces armées de robots ont des avantages:
 
 Mais je pense au final ce sera l'humain qui devra payer la facture.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YpAn83cXHvU" frameborder="0" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lyy7y0QOK-0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
