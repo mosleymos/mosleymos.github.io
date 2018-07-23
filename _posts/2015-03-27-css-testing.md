@@ -32,8 +32,6 @@ Je vais je pense désormais m'interesser au Ui testing
 
 [CSS Regression testing with resemble.js](https://www.lullabot.com/blog/article/css-regression-testing-resemblejs)
 
-[CssTe.st](http://csste.st/)
-
 
 Une vidéo assez inspirante sur le css [Automated css testing](https://www.youtube.com/watch?v=2PU6JX4S7zI)
 
