@@ -1,0 +1,34 @@
+p{
+	font-family: Roboto, sans-serif;
+  font-size: 1.5em;
+}
+
+
+.left-quote{
+  font-size:2em;
+  display:inline;
+}
+
+.left-quote::before{
+  padding-right:2em;
+}
+
+.left-quote::after{
+  padding-left:2em;
+}
+
+
+
+
+.right-quote{
+  font-size:2em;
+  display:inline;
+}
+
+.right-quote::before{
+  padding-right:2em;
+}
+
+.right-quote::after{
+  padding-left:2em;
+}
