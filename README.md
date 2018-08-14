@@ -16,6 +16,12 @@ jekyll serve
 
 Open your browser at localhost:4000 to see the website
 
+Launch sass for css
+
+```
+sass -g --watch css/main.scss
+```
+
 ### TODO:
 
 - [ ] Integrate image logo of Iwheelshare, VBN, arkena, meteor to project
