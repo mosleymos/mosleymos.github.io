@@ -4,6 +4,7 @@
 - [ ] Recreate blogsite style
 - [ ] Add a custom 404 page if possible
 - [ ] Correct articles - add english version
+- [ ] Take Html template for style
 
 ### DOING:
 - [ ] Article to finish
