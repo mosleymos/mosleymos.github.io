@@ -5,6 +5,8 @@
 - [ ] Add a custom 404 page if possible
 - [ ] Correct articles - add english version
 - [ ] Take Html template for style
+- [ ] Mettre indicateur de code  contexte ecrit en markdown - bout de code qui
+  envoie sur le code réel
 
 ### DOING:
 - [ ] Article to finish
