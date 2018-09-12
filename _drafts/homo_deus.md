@@ -12,7 +12,7 @@ qui emmenent sur trois questions
 
 > Les organismes ne sont ils réellement que des algorithmes, et la vie se réduit elle au traitement de données ?
 
-> De l'intelligence out de la conscience, laquelle est la plus précieuse ?
+> De l'intelligence ou de la conscience, laquelle est la plus précieuse ?
 
 > Qu'adviendra-t-il de la société, de la politique et de la vie quotidienne quand des algorithmes non conscients mais hautements intelligents nous connaîtront mieux que nous ne nous connaissons ?
 
