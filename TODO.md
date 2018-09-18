@@ -17,9 +17,12 @@
 - Email-analysis
 - One liner - eye liner
 - Don't forget Sinatra
+- Two stars 
 
 ### DONE:
 - [x] Correct build error
 - [x] Gulp base configuration
 - [x] Migrate site from angularjs to jekyll
 - [x] Include .travis integration
+- [x] Software decoded 
+- [x] Homo deus 
