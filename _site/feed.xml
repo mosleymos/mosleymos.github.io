@@ -6,9 +6,56 @@
 </description>
     <link>http://mosleymos.github.io//</link>
     <atom:link href="http://mosleymos.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Jul 2018 18:59:37 +0200</pubDate>
-    <lastBuildDate>Wed, 25 Jul 2018 18:59:37 +0200</lastBuildDate>
+    <pubDate>Mon, 17 Sep 2018 21:08:01 +0200</pubDate>
+    <lastBuildDate>Mon, 17 Sep 2018 21:08:01 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Homo_deus</title>
+        <description>&lt;h3 id=&quot;homodeus&quot;&gt;Homo_deus&lt;/h3&gt;
+
+&lt;p&gt;Récemmment j’ai lu Homo Deus, livre étant la suite de Sapiens (que je n’ai pas lu). Le livre raconte l’évolution humaine de l’antiquité à nos jours, et tente de tisser des liens entre le passé et le présent. Le dernier chapitre, sur les enjeux futurs m’a intéressé.&lt;/p&gt;
+
+&lt;p&gt;Trois processus présent et futur sont décrits&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;La science converge sur un dogme universel, suivant lequel les organismes sont des algorithmes et la vie se réduit au traitement de données&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;L’intelligence se découple de la conscience.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Des algorithmes non conscients, mais forts intelligents, pourraient bientôt nous connaître mieux que nous même.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;qui emmenent sur trois questions&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Les organismes ne sont ils réellement que des algorithmes, et la vie se réduit elle au traitement de données ?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;De l’intelligence ou de la conscience, laquelle est la plus précieuse ?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Qu’adviendra-t-il de la société, de la politique et de la vie quotidienne quand des algorithmes non conscients mais hautements intelligents nous connaîtront mieux que nous ne nous connaissons ?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Des questions fascinantes à explorer.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Sep 2018 20:41:18 +0200</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2018/09/17/homo_deus.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2018/09/17/homo_deus.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -239,53 +286,6 @@ J’ai essayé durant ces exercices de résoudre quelques katas avec une ligne d
         <pubDate>Sun, 16 Nov 2014 19:41:18 +0100</pubDate>
         <link>http://mosleymos.github.io//jekyll/update/2014/11/16/fizzbuzz-ruby.html</link>
         <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2014/11/16/fizzbuzz-ruby.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Jeet css</title>
-        <description>&lt;h3 id=&quot;jeet-a-css-framework-for-humans&quot;&gt;JEET a css framework for humans&lt;/h3&gt;
-
-&lt;p&gt;Récement j’ai découvert JEET un framework css assez simple&lt;/p&gt;
-
-&lt;p&gt;Bien que j’use de bootstrap pour organiser le style des pages web , le code est quelque peu “bruyant” et “sale”.&lt;/p&gt;
-
-&lt;p&gt;Par exemple pour user simplement une rangée en deux parties égales. Je dois écrire ce code&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'row'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'col-md-6'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'col-md-6'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;C’est long et lorsque j’ai des douzaines et des douzaines de rangées à voir, c’est assez embêtant à lire.&lt;/p&gt;
-
-&lt;p&gt;JEET qui possède une syntaxe plus simple que celle au dessus.&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-column
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Je pense changer progressivement pour ce framework.&lt;/p&gt;
-
-&lt;p&gt;Leur slogan “A grid system for humans” est génial.&lt;/p&gt;
-
-&lt;p&gt;Voiçi le lien pour le projet &lt;a href=&quot;http://jeet.gs&quot;&gt;JEET&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 01 Nov 2014 19:41:18 +0100</pubDate>
-        <link>http://mosleymos.github.io//jekyll/update/2014/11/01/jeet-css.html</link>
-        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2014/11/01/jeet-css.html</guid>
         
         
         <category>jekyll</category>
