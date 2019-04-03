@@ -1,4 +1,7 @@
-### TODO:
+TODO
+====
+
+### TASKS:
 
 - [ ] Integrate image logo of Iwheelshare, VBN, arkena, meteor to project
 - [ ] Recreate blogsite style
@@ -9,15 +12,15 @@
   envoie sur le code réel
 
 ### DOING:
-- [ ] Article to finish
 
-- VBn information
-- 2 years information
-- Shneck-analysis
-- Email-analysis
-- One liner - eye liner
-- Don't forget Sinatra
-- Two stars 
+- [ ] Article to finish
+- [ ] VBn information
+- [ ] 2 years information
+- [ ] Shneck-analysis
+- [ ] Email-analysis
+- [ ] One liner - eye liner
+- [ ] Don't forget Sinatra
+- [ ] Multiple If Unique If 
 
 ### DONE:
 - [x] Correct build error
@@ -26,3 +29,4 @@
 - [x] Include .travis integration
 - [x] Software decoded 
 - [x] Homo deus 
+- [x] Two stars 
