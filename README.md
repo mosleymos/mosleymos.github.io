@@ -32,12 +32,14 @@ sass -g --watch css/main.scss
 ### DOING:
 - [ ] Article to finish
 
-- VBn information
-- 2 years information
-- Shneck-analysis
-- Email-analysis
-- One liner - eye liner
-- Don't forget Sinatra
+- [ ] Article to finish
+- [ ] VBn information
+- [ ] 2 years information
+- [ ] Shneck-analysis
+- [ ] Email-analysis
+- [ ] One liner - eye liner
+- [ ] Don't forget Sinatra
+- [ ] Multiple If Unique If 
 
 ### DONE:
 - [x] Correct build error
