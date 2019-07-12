@@ -10,18 +10,21 @@ TODO
 - [ ] Take Html template for style
 - [ ] Mettre indicateur de code  contexte ecrit en markdown - bout de code qui
   envoie sur le code réel
+- [ ] Template a refaire
 
 ### DOING:
 
 - [ ] Article to finish
 - [ ] VBn information
-- [ ] 2 years information
+- [ ] Years information
 - [ ] Shneck-analysis
 - [ ] Email-analysis
 - [ ] One liner - eye liner
 - [ ] Don't forget Sinatra
+- [ ] Déclic Discussion - Analysis
 - [ ] Multiple If Unique If 
 - [ ] Nuit du Hack - le Hack 2019
+
 
 ### DONE:
 - [x] Correct build error
