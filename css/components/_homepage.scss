@@ -1,21 +1,23 @@
 .content-homepage {
+  font-style: 'Roboto Slab', Sans-serif;
   padding: 120px 40px;
   text-align: center;
 }
 
 .content-homepage-welcome-title {
+  font-style: 'Roboto Slab', Sans-serif;
   font-size: 24px;
   color: black;
-  font-style: Sans-serif;
   text-align: center;
 }
 
 .content-homepage-slogan {
-  font-style: italic;
-  font-weight: bold;
-  font-size: 18px;
-  color:black;
+  font-style: 'Roboto Slab', Sans-serif;
+  font-weight: 100;
+  font-size: 4em;
+  color: #3d4449 ;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .content-homepage-email {
@@ -26,11 +28,13 @@
     padding-right: 1em;
     margin-left: -1.5em;
 
+    font-style: 'Roboto Slab', Sans-serif;
     text-align: center;
   }
 }
 
 .content-homepage-short-presentation {
+  font-style: 'Roboto Slab', Sans-serif;
   margin-top: 30px;
   text-align: center;
 }
