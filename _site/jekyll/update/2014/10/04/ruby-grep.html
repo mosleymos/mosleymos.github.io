@@ -38,7 +38,7 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="///jekyll/update/2014/10/04/ruby-grep.html">
   <link rel="alternate" type="application/rss+xml" title="DecodeBlog"
-  href="http://mosleymos.github.io//feed.xml">
+  href="http://localhost:4000//feed.xml">
 </head>
 
 
@@ -99,7 +99,7 @@
 
 <p>Quelques examples:</p>
 
-<div class="language-ruby highlighter-rouge"><pre class="highlight"><code>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 <span class="c1">#Affiche toute les methodes de l'objet qui contienne "re"</span>
 <span class="no">Object</span><span class="p">.</span><span class="nf">methods</span><span class="p">.</span><span class="nf">grep</span> <span class="sr">/re/</span>
 
@@ -108,10 +108,9 @@
 
 <span class="c1"># Le .grep marche aussi avec les Array. On aura a utilser un range</span>
 <span class="c1"># va renvoyer un tableau comprenant tout les nombres entre 0 et 10</span>
-<span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">67</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="o">-</span><span class="mi">78</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span><span class="mi">1</span><span class="o">.</span><span class="mi">2</span><span class="p">,</span><span class="mi">45</span><span class="p">,</span><span class="mi">5</span><span class="o">.</span><span class="mi">5</span><span class="p">].</span><span class="nf">grep</span> <span class="mi">0</span><span class="p">.</span><span class="nf">.</span><span class="mi">10</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">67</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="o">-</span><span class="mi">78</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span><span class="mf">1.2</span><span class="p">,</span><span class="mi">45</span><span class="p">,</span><span class="mf">5.5</span><span class="p">].</span><span class="nf">grep</span> <span class="mi">0</span><span class="o">..</span><span class="mi">10</span>
 
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>.grep est une manière assez rapide pour filtrer.</p>
 

@@ -1,4 +1,5 @@
 # mosleymos.github.io
+
 [![Build Status](https://travis-ci.org/mosleymos/mosleymos.github.io.svg?branch=master)](https://travis-ci.org/mosleymos/mosleymos.github.io)
 
 ## Blog Mosleymos
@@ -19,6 +20,7 @@ Open your browser at localhost:4000 to see the website
 Launch sass for css
 
 ```
-sass -g --watch css/main.scss
-```
 
+sass -g --watch css/main.scss
+
+```

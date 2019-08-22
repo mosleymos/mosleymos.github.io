@@ -4,15 +4,52 @@
     <title>DecodeBlog</title>
     <description>&quot;I talk to machines and often to humans.&quot;... This is my motto, and you're in a blog about programming and other stuff.
 </description>
-    <link>http://mosleymos.github.io//</link>
-    <atom:link href="http://mosleymos.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Sep 2018 21:08:01 +0200</pubDate>
-    <lastBuildDate>Mon, 17 Sep 2018 21:08:01 +0200</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 22 Aug 2019 20:40:16 +0200</pubDate>
+    <lastBuildDate>Thu, 22 Aug 2019 20:40:16 +0200</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Software design decoded</title>
+        <description>&lt;h3 id=&quot;software-design-decoded&quot;&gt;Software design decoded&lt;/h3&gt;
+
+&lt;p&gt;Lecture du livre Software Design Decoded - 66 ways experts think par Marian Petre et André van der Hoek, illustrations par Yen Quach&lt;/p&gt;
+
+&lt;p&gt;Livre court, qui est en fait un carnet sur lequel sont notés des (conseils, maximes ou aphorismes) sur ce qu’est la manière de penser d’un expert
+Ce livre est un recueil des “insights” d’un expert en software design&lt;/p&gt;
+
+&lt;p&gt;Le Livre contient 66 de ces observations
+Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent servir de commandements.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Experts keep it simple&lt;/li&gt;
+  &lt;li&gt;Experts collaborate&lt;/li&gt;
+  &lt;li&gt;Experts borrow&lt;/li&gt;
+  &lt;li&gt;Experts break the rules&lt;/li&gt;
+  &lt;li&gt;Experts sketch&lt;/li&gt;
+  &lt;li&gt;Experts work with uncertainity&lt;/li&gt;
+  &lt;li&gt;Experts are not affraid&lt;/li&gt;
+  &lt;li&gt;Experts iterate&lt;/li&gt;
+  &lt;li&gt;Experts test&lt;/li&gt;
+  &lt;li&gt;Experts reflect&lt;/li&gt;
+  &lt;li&gt;Experts keep going&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 18 Sep 2018 20:41:18 +0200</pubDate>
+        <link>http://localhost:4000//jekyll/update/2018/09/18/software_design_decoded.html</link>
+        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2018/09/18/software_design_decoded.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Homo_deus</title>
-        <description>&lt;h3 id=&quot;homodeus&quot;&gt;Homo_deus&lt;/h3&gt;
+        <description>&lt;h3 id=&quot;homo_deus&quot;&gt;Homo_deus&lt;/h3&gt;
 
 &lt;p&gt;Récemmment j’ai lu Homo Deus, livre étant la suite de Sapiens (que je n’ai pas lu). Le livre raconte l’évolution humaine de l’antiquité à nos jours, et tente de tisser des liens entre le passé et le présent. Le dernier chapitre, sur les enjeux futurs m’a intéressé.&lt;/p&gt;
 
@@ -47,8 +84,31 @@
 &lt;p&gt;Des questions fascinantes à explorer.&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Sep 2018 20:41:18 +0200</pubDate>
-        <link>http://mosleymos.github.io//jekyll/update/2018/09/17/homo_deus.html</link>
-        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2018/09/17/homo_deus.html</guid>
+        <link>http://localhost:4000//jekyll/update/2018/09/17/homo_deus.html</link>
+        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2018/09/17/homo_deus.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Nuit du Hack 2019</title>
+        <description>&lt;h3 id=&quot;nuit-du-hack-2019&quot;&gt;Nuit du Hack 2019&lt;/h3&gt;
+
+&lt;p&gt;Première participation, premières impressions. C’est un autre domaine dès lors que l’on voit une cuisine spécialisée.&lt;/p&gt;
+
+&lt;p&gt;L’initiation au CTF était bien, les conférences intéressantes, les participants concentrés.&lt;/p&gt;
+
+&lt;p&gt;Il me faudra désormais essayer RootMe pour creuser.&lt;/p&gt;
+
+&lt;p&gt;Une expérience à retenter.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Jul 2018 20:41:18 +0200</pubDate>
+        <link>http://localhost:4000//jekyll/update/2018/07/10/nuit-du-hack-2019.html</link>
+        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2018/07/10/nuit-du-hack-2019.html</guid>
         
         
         <category>jekyll</category>
@@ -62,8 +122,8 @@
         <description>&lt;p&gt;Pour améliorer l’usage de mon blog, j’ai décidé de passer à &lt;a href=&quot;http://jekyllrb.com&quot;&gt;jekyll&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Feb 2016 19:41:18 +0100</pubDate>
-        <link>http://mosleymos.github.io//jekyll/update/2016/02/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2016/02/01/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000//jekyll/update/2016/02/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2016/02/01/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -80,8 +140,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 29 Nov 2015 19:41:18 +0100</pubDate>
-        <link>http://mosleymos.github.io//jekyll/update/2015/11/29/violence.html</link>
-        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/11/29/violence.html</guid>
+        <link>http://localhost:4000//jekyll/update/2015/11/29/violence.html</link>
+        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2015/11/29/violence.html</guid>
         
         
         <category>jekyll</category>
@@ -105,8 +165,8 @@
 &lt;p&gt;Le test fonctionne dans le cadre d’une application Rails.&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 May 2015 20:41:18 +0200</pubDate>
-        <link>http://mosleymos.github.io//jekyll/update/2015/05/05/codelab-css-testing.html</link>
-        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/05/05/codelab-css-testing.html</guid>
+        <link>http://localhost:4000//jekyll/update/2015/05/05/codelab-css-testing.html</link>
+        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2015/05/05/codelab-css-testing.html</guid>
         
         
         <category>jekyll</category>
@@ -124,8 +184,8 @@
 &lt;p&gt;J’ai trouvé par l’intermédiaire d’une connaissance au Loop ce pc emulé sous javascript &lt;a href=&quot;http://bellard.org/jslinux/&quot;&gt;Jslinux&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 10 Apr 2015 20:41:18 +0200</pubDate>
-        <link>http://mosleymos.github.io//jekyll/update/2015/04/10/javascript-linux-emulation.html</link>
-        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/04/10/javascript-linux-emulation.html</guid>
+        <link>http://localhost:4000//jekyll/update/2015/04/10/javascript-linux-emulation.html</link>
+        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2015/04/10/javascript-linux-emulation.html</guid>
         
         
         <category>jekyll</category>
@@ -168,8 +228,8 @@
 
 </description>
         <pubDate>Fri, 27 Mar 2015 19:41:18 +0100</pubDate>
-        <link>http://mosleymos.github.io//jekyll/update/2015/03/27/css-testing.html</link>
-        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/03/27/css-testing.html</guid>
+        <link>http://localhost:4000//jekyll/update/2015/03/27/css-testing.html</link>
+        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2015/03/27/css-testing.html</guid>
         
         
         <category>jekyll</category>
@@ -205,8 +265,8 @@
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lyy7y0QOK-0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Tue, 24 Mar 2015 19:41:18 +0100</pubDate>
-        <link>http://mosleymos.github.io//jekyll/update/2015/03/24/movie-news.html</link>
-        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/03/24/movie-news.html</guid>
+        <link>http://localhost:4000//jekyll/update/2015/03/24/movie-news.html</link>
+        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2015/03/24/movie-news.html</guid>
         
         
         <category>jekyll</category>
@@ -217,7 +277,7 @@
     
       <item>
         <title>Corpore Sano</title>
-        <description>&lt;h3 id=&quot;pense-du-jour&quot;&gt;Pensée du jour&lt;/h3&gt;
+        <description>&lt;h3 id=&quot;pensée-du-jour&quot;&gt;Pensée du jour&lt;/h3&gt;
 
 &lt;p&gt;La pensée du jour :&lt;/p&gt;
 
@@ -227,65 +287,8 @@
 
 </description>
         <pubDate>Mon, 02 Mar 2015 19:41:18 +0100</pubDate>
-        <link>http://mosleymos.github.io//jekyll/update/2015/03/02/corpore-sano.html</link>
-        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/03/02/corpore-sano.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Jedi jihad</title>
-        <description>&lt;p&gt;Aujourd’hui, un jeu de mots pendant une pause café m’a fait rire, un collègue André m’a parlé de la nouvelle série de Disney sur Star Wars: Star Wars Rebels.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;‘Jedi Jihad’&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Je me suis marré des petites implications qu’amenait et le dessin animé.&lt;/p&gt;
-
-&lt;p&gt;Heurement que c’est pour les enfants.&lt;/p&gt;
-
-&lt;p&gt;Il faut croire que depuis les attentats de Charlie Hebdo (1 mois maintenant) l’humour est toujours présent, j’ai vraiment l’esprit tordu.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Feb 2015 19:41:18 +0100</pubDate>
-        <link>http://mosleymos.github.io//jekyll/update/2015/02/11/jedi-jihad.html</link>
-        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/02/11/jedi-jihad.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Fizzbuzz</title>
-        <description>&lt;h3 id=&quot;long-code&quot;&gt;Long code&lt;/h3&gt;
-
-&lt;p&gt;Récemment j’ai fait quelques katas en ruby, javascript et python sur le site Codewars.
-J’ai essayé durant ces exercices de résoudre quelques katas avec une ligne de code.&lt;/p&gt;
-
-&lt;p&gt;Exemple Fizzbuzz:&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;fizzbuzz&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;FizzBuzz&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Buzz&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Fizz&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Assez marrant mais surement non utilisable en production. Je continue d’apprendre.&lt;/p&gt;
-
-&lt;p&gt;D’ailleurs voiçi un fil &lt;a href=&quot;https://www.reddit.com/r/fizzbuzz/&quot;&gt;reddit&lt;/a&gt; dédié au fizzbuzz.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 16 Nov 2014 19:41:18 +0100</pubDate>
-        <link>http://mosleymos.github.io//jekyll/update/2014/11/16/fizzbuzz-ruby.html</link>
-        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2014/11/16/fizzbuzz-ruby.html</guid>
+        <link>http://localhost:4000//jekyll/update/2015/03/02/corpore-sano.html</link>
+        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2015/03/02/corpore-sano.html</guid>
         
         
         <category>jekyll</category>
