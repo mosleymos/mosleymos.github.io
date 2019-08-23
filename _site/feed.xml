@@ -4,11 +4,34 @@
     <title>DecodeBlog</title>
     <description>&quot;I talk to machines and often to humans.&quot;... This is my motto, and you're in a blog about programming and other stuff.
 </description>
-    <link>http://localhost:4000//</link>
-    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Aug 2019 20:40:16 +0200</pubDate>
-    <lastBuildDate>Thu, 22 Aug 2019 20:40:16 +0200</lastBuildDate>
+    <link>http://mosleymos.github.io//</link>
+    <atom:link href="http://mosleymos.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 23 Aug 2019 09:11:03 +0200</pubDate>
+    <lastBuildDate>Fri, 23 Aug 2019 09:11:03 +0200</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Nuit du Hack 2019</title>
+        <description>&lt;h3 id=&quot;nuit-du-hack-2019&quot;&gt;Nuit du Hack 2019&lt;/h3&gt;
+
+&lt;p&gt;Première participation, premières impressions. C’est un autre domaine dès lors que l’on voit une cuisine spécialisée.&lt;/p&gt;
+
+&lt;p&gt;L’initiation au CTF était bien, les conférences intéressantes, les participants concentrés.&lt;/p&gt;
+
+&lt;p&gt;Il me faudra désormais essayer RootMe pour creuser.&lt;/p&gt;
+
+&lt;p&gt;Une expérience à retenter.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Jul 2019 20:41:18 +0200</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2019/07/10/nuit-du-hack-2019.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2019/07/10/nuit-du-hack-2019.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Software design decoded</title>
@@ -37,8 +60,8 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 18 Sep 2018 20:41:18 +0200</pubDate>
-        <link>http://localhost:4000//jekyll/update/2018/09/18/software_design_decoded.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2018/09/18/software_design_decoded.html</guid>
+        <link>http://mosleymos.github.io//jekyll/update/2018/09/18/software_design_decoded.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2018/09/18/software_design_decoded.html</guid>
         
         
         <category>jekyll</category>
@@ -84,31 +107,8 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
 &lt;p&gt;Des questions fascinantes à explorer.&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Sep 2018 20:41:18 +0200</pubDate>
-        <link>http://localhost:4000//jekyll/update/2018/09/17/homo_deus.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2018/09/17/homo_deus.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Nuit du Hack 2019</title>
-        <description>&lt;h3 id=&quot;nuit-du-hack-2019&quot;&gt;Nuit du Hack 2019&lt;/h3&gt;
-
-&lt;p&gt;Première participation, premières impressions. C’est un autre domaine dès lors que l’on voit une cuisine spécialisée.&lt;/p&gt;
-
-&lt;p&gt;L’initiation au CTF était bien, les conférences intéressantes, les participants concentrés.&lt;/p&gt;
-
-&lt;p&gt;Il me faudra désormais essayer RootMe pour creuser.&lt;/p&gt;
-
-&lt;p&gt;Une expérience à retenter.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 10 Jul 2018 20:41:18 +0200</pubDate>
-        <link>http://localhost:4000//jekyll/update/2018/07/10/nuit-du-hack-2019.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2018/07/10/nuit-du-hack-2019.html</guid>
+        <link>http://mosleymos.github.io//jekyll/update/2018/09/17/homo_deus.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2018/09/17/homo_deus.html</guid>
         
         
         <category>jekyll</category>
@@ -122,8 +122,8 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
         <description>&lt;p&gt;Pour améliorer l’usage de mon blog, j’ai décidé de passer à &lt;a href=&quot;http://jekyllrb.com&quot;&gt;jekyll&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Feb 2016 19:41:18 +0100</pubDate>
-        <link>http://localhost:4000//jekyll/update/2016/02/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2016/02/01/welcome-to-jekyll.html</guid>
+        <link>http://mosleymos.github.io//jekyll/update/2016/02/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2016/02/01/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -140,8 +140,8 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 29 Nov 2015 19:41:18 +0100</pubDate>
-        <link>http://localhost:4000//jekyll/update/2015/11/29/violence.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2015/11/29/violence.html</guid>
+        <link>http://mosleymos.github.io//jekyll/update/2015/11/29/violence.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/11/29/violence.html</guid>
         
         
         <category>jekyll</category>
@@ -165,8 +165,8 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
 &lt;p&gt;Le test fonctionne dans le cadre d’une application Rails.&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 May 2015 20:41:18 +0200</pubDate>
-        <link>http://localhost:4000//jekyll/update/2015/05/05/codelab-css-testing.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2015/05/05/codelab-css-testing.html</guid>
+        <link>http://mosleymos.github.io//jekyll/update/2015/05/05/codelab-css-testing.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/05/05/codelab-css-testing.html</guid>
         
         
         <category>jekyll</category>
@@ -184,8 +184,8 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
 &lt;p&gt;J’ai trouvé par l’intermédiaire d’une connaissance au Loop ce pc emulé sous javascript &lt;a href=&quot;http://bellard.org/jslinux/&quot;&gt;Jslinux&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 10 Apr 2015 20:41:18 +0200</pubDate>
-        <link>http://localhost:4000//jekyll/update/2015/04/10/javascript-linux-emulation.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2015/04/10/javascript-linux-emulation.html</guid>
+        <link>http://mosleymos.github.io//jekyll/update/2015/04/10/javascript-linux-emulation.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/04/10/javascript-linux-emulation.html</guid>
         
         
         <category>jekyll</category>
@@ -228,8 +228,8 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
 
 </description>
         <pubDate>Fri, 27 Mar 2015 19:41:18 +0100</pubDate>
-        <link>http://localhost:4000//jekyll/update/2015/03/27/css-testing.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2015/03/27/css-testing.html</guid>
+        <link>http://mosleymos.github.io//jekyll/update/2015/03/27/css-testing.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/03/27/css-testing.html</guid>
         
         
         <category>jekyll</category>
@@ -265,8 +265,8 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lyy7y0QOK-0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Tue, 24 Mar 2015 19:41:18 +0100</pubDate>
-        <link>http://localhost:4000//jekyll/update/2015/03/24/movie-news.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2015/03/24/movie-news.html</guid>
+        <link>http://mosleymos.github.io//jekyll/update/2015/03/24/movie-news.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/03/24/movie-news.html</guid>
         
         
         <category>jekyll</category>
@@ -287,8 +287,8 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
 
 </description>
         <pubDate>Mon, 02 Mar 2015 19:41:18 +0100</pubDate>
-        <link>http://localhost:4000//jekyll/update/2015/03/02/corpore-sano.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2015/03/02/corpore-sano.html</guid>
+        <link>http://mosleymos.github.io//jekyll/update/2015/03/02/corpore-sano.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/03/02/corpore-sano.html</guid>
         
         
         <category>jekyll</category>
