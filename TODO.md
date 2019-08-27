@@ -19,14 +19,14 @@ TODO
 - [ ] Years information
 - [ ] Shneck-analysis
 - [ ] Email-analysis
-- [ ] One liner - eye liner
 - [ ] Don't forget Sinatra
 - [ ] Déclic Discussion - Analysis
 - [ ] Multiple If Unique If 
-- [ ] Nuit du Hack - le Hack 2019
 
 
 ### DONE:
+- [x] Nuit du Hack - le Hack 2019
+- [x] One liner - eye liner
 - [x] Correct build error
 - [x] Gulp base configuration
 - [x] Migrate site from angularjs to jekyll
