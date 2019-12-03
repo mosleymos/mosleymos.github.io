@@ -4,11 +4,32 @@
     <title>DecodeBlog</title>
     <description>&quot;I talk to machines and often to humans.&quot;... This is my motto, and you're in a blog about programming and other stuff.
 </description>
-    <link>http://localhost:4000//</link>
-    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Aug 2019 19:58:49 +0200</pubDate>
-    <lastBuildDate>Mon, 26 Aug 2019 19:58:49 +0200</lastBuildDate>
+    <link>http://mosleymos.github.io//</link>
+    <atom:link href="http://mosleymos.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 03 Dec 2019 20:29:43 +0100</pubDate>
+    <lastBuildDate>Tue, 03 Dec 2019 20:29:43 +0100</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Cookie party 2019</title>
+        <description>&lt;h3 id=&quot;cookie-party-2019&quot;&gt;Cookie party 2019&lt;/h3&gt;
+
+&lt;p&gt;Nouvelle expérience aussi intéressante que celle de la nuit du hack. Orienté musique et arts plastique cette fois çi.&lt;/p&gt;
+
+&lt;p&gt;L’atelier Pico8 subset de lua était sympa.&lt;/p&gt;
+
+&lt;p&gt;La creation de chiptune via Lsdj est un moyen de programmation par manette intéressant.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Nov 2019 19:41:18 +0100</pubDate>
+        <link>http://mosleymos.github.io//cookie/party/2019/11/01/Cookie-party-2019.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//cookie/party/2019/11/01/Cookie-party-2019.html</guid>
+        
+        
+        <category>cookie</category>
+        
+        <category>party</category>
+        
+      </item>
     
       <item>
         <title>Nuit du Hack 2019</title>
@@ -23,8 +44,8 @@
 &lt;p&gt;Une expérience à retenter.&lt;/p&gt;
 </description>
         <pubDate>Wed, 10 Jul 2019 20:41:18 +0200</pubDate>
-        <link>http://localhost:4000//jekyll/update/2019/07/10/nuit-du-hack-2019.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2019/07/10/nuit-du-hack-2019.html</guid>
+        <link>http://mosleymos.github.io//jekyll/update/2019/07/10/nuit-du-hack-2019.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2019/07/10/nuit-du-hack-2019.html</guid>
         
         
         <category>jekyll</category>
@@ -60,8 +81,8 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 18 Sep 2018 20:41:18 +0200</pubDate>
-        <link>http://localhost:4000//jekyll/update/2018/09/18/software_design_decoded.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2018/09/18/software_design_decoded.html</guid>
+        <link>http://mosleymos.github.io//jekyll/update/2018/09/18/software_design_decoded.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2018/09/18/software_design_decoded.html</guid>
         
         
         <category>jekyll</category>
@@ -107,8 +128,8 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
 &lt;p&gt;Des questions fascinantes à explorer.&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Sep 2018 20:41:18 +0200</pubDate>
-        <link>http://localhost:4000//jekyll/update/2018/09/17/homo_deus.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2018/09/17/homo_deus.html</guid>
+        <link>http://mosleymos.github.io//jekyll/update/2018/09/17/homo_deus.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2018/09/17/homo_deus.html</guid>
         
         
         <category>jekyll</category>
@@ -124,8 +145,8 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
 &lt;p&gt;Il y a une verité dans cette association. Un one liner est un eye liner. Il sublime le code.&lt;/p&gt;
 </description>
         <pubDate>Mon, 08 Aug 2016 20:41:18 +0200</pubDate>
-        <link>http://localhost:4000//jekyll/update/2016/08/08/one-liner-eye-liner.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2016/08/08/one-liner-eye-liner.html</guid>
+        <link>http://mosleymos.github.io//jekyll/update/2016/08/08/one-liner-eye-liner.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2016/08/08/one-liner-eye-liner.html</guid>
         
         
         <category>jekyll</category>
@@ -139,8 +160,8 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
         <description>&lt;p&gt;Pour améliorer l’usage de mon blog, j’ai décidé de passer à &lt;a href=&quot;http://jekyllrb.com&quot;&gt;jekyll&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Feb 2016 19:41:18 +0100</pubDate>
-        <link>http://localhost:4000//jekyll/update/2016/02/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2016/02/01/welcome-to-jekyll.html</guid>
+        <link>http://mosleymos.github.io//jekyll/update/2016/02/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2016/02/01/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -157,8 +178,8 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 29 Nov 2015 19:41:18 +0100</pubDate>
-        <link>http://localhost:4000//jekyll/update/2015/11/29/violence.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2015/11/29/violence.html</guid>
+        <link>http://mosleymos.github.io//jekyll/update/2015/11/29/violence.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/11/29/violence.html</guid>
         
         
         <category>jekyll</category>
@@ -182,8 +203,8 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
 &lt;p&gt;Le test fonctionne dans le cadre d’une application Rails.&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 May 2015 20:41:18 +0200</pubDate>
-        <link>http://localhost:4000//jekyll/update/2015/05/05/codelab-css-testing.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2015/05/05/codelab-css-testing.html</guid>
+        <link>http://mosleymos.github.io//jekyll/update/2015/05/05/codelab-css-testing.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/05/05/codelab-css-testing.html</guid>
         
         
         <category>jekyll</category>
@@ -201,8 +222,8 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
 &lt;p&gt;J’ai trouvé par l’intermédiaire d’une connaissance au Loop ce pc emulé sous javascript &lt;a href=&quot;http://bellard.org/jslinux/&quot;&gt;Jslinux&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 10 Apr 2015 20:41:18 +0200</pubDate>
-        <link>http://localhost:4000//jekyll/update/2015/04/10/javascript-linux-emulation.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2015/04/10/javascript-linux-emulation.html</guid>
+        <link>http://mosleymos.github.io//jekyll/update/2015/04/10/javascript-linux-emulation.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/04/10/javascript-linux-emulation.html</guid>
         
         
         <category>jekyll</category>
@@ -245,45 +266,8 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
 
 </description>
         <pubDate>Fri, 27 Mar 2015 19:41:18 +0100</pubDate>
-        <link>http://localhost:4000//jekyll/update/2015/03/27/css-testing.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2015/03/27/css-testing.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Movie news</title>
-        <description>&lt;h3 id=&quot;chappie&quot;&gt;Chappie&lt;/h3&gt;
-
-&lt;p&gt;Je suis allé récemment voir le film chappie, c’était un film marrant, sympa.&lt;/p&gt;
-
-&lt;p&gt;Les moments robot gangsta étaient marrants.&lt;/p&gt;
-
-&lt;p&gt;Durant le film une interrogation m’est venue durant le film. Elle concernait le fait d’utiliser la machine pour le maintien de l’ordre.&lt;/p&gt;
-
-&lt;p&gt;Des représentant de la loi et l’ordre, sous la forme de machines.&lt;/p&gt;
-
-&lt;p&gt;Il faut croire qu’un des rêves des nations est d’avoir une armée de robots.&lt;/p&gt;
-
-&lt;p&gt;En réflechissant ces armées de robots ont des avantages:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Disponibilité 24h/24h&lt;/li&gt;
-  &lt;li&gt;Absence d’égo&lt;/li&gt;
-  &lt;li&gt;Pas de grève&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Mais je pense au final ce sera l’humain qui devra payer la facture.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lyy7y0QOK-0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Tue, 24 Mar 2015 19:41:18 +0100</pubDate>
-        <link>http://localhost:4000//jekyll/update/2015/03/24/movie-news.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2015/03/24/movie-news.html</guid>
+        <link>http://mosleymos.github.io//jekyll/update/2015/03/27/css-testing.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/03/27/css-testing.html</guid>
         
         
         <category>jekyll</category>
