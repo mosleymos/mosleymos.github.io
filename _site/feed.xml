@@ -6,9 +6,28 @@
 </description>
     <link>http://mosleymos.github.io//</link>
     <atom:link href="http://mosleymos.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Dec 2019 20:29:43 +0100</pubDate>
-    <lastBuildDate>Tue, 03 Dec 2019 20:29:43 +0100</lastBuildDate>
+    <pubDate>Mon, 06 Apr 2020 17:55:14 +0200</pubDate>
+    <lastBuildDate>Mon, 06 Apr 2020 17:55:14 +0200</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>20 jours plus tard</title>
+        <description>&lt;h2 id=&quot;20-jours-plus-tard&quot;&gt;20 jours plus tard&lt;/h2&gt;
+
+&lt;p&gt;Toujours en confinement.&lt;/p&gt;
+
+&lt;p&gt;Tout est lent.&lt;/p&gt;
+
+&lt;p&gt;Tout est encore déprimant sur l’écran.&lt;/p&gt;
+
+&lt;p&gt;C’est stressant.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Apr 2020 17:41:00 +0200</pubDate>
+        <link>http://mosleymos.github.io//2020/04/06/20-jours-plus-tard.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//2020/04/06/20-jours-plus-tard.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Cookie party 2019</title>
@@ -224,50 +243,6 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
         <pubDate>Fri, 10 Apr 2015 20:41:18 +0200</pubDate>
         <link>http://mosleymos.github.io//jekyll/update/2015/04/10/javascript-linux-emulation.html</link>
         <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/04/10/javascript-linux-emulation.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Css testing</title>
-        <description>&lt;p&gt;Le css un langage de type impératif pour rendre les pages html plus belles. Le css est ma bête noire … cependant je commence à peine à l’apprécier ceci du fait que j’ai appris qu’il était possible de tester du css.&lt;/p&gt;
-
-&lt;p&gt;Oui ! Vous avez bien entendu on peut tester du css, des framework de test en Css existent&lt;/p&gt;
-
-&lt;p&gt;Different type de framework css existent pour différentes fonctionnalités.&lt;/p&gt;
-
-&lt;p&gt;Parmi ceux que j’ai découvert j’ai trouvé:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Galen&lt;/li&gt;
-  &lt;li&gt;Cactus&lt;/li&gt;
-  &lt;li&gt;Hardy&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;C’est des framework qui sont encore un peu en state of the art (sauf Galen).&lt;/p&gt;
-
-&lt;p&gt;Je vais je pense désormais m’interesser au Ui testing&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.creativebloq.com/css3/4-tools-automatic-css-testing-7133777&quot;&gt;4 tools automatic Css Testing&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://css-tricks.com/automating-css-regression-testing/&quot;&gt;Automating css regression testing&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.tutorialspoint.com/software_testing_dictionary/use_interface_testing&quot;&gt;Tutorials point Ui testing&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://tldr.huddle.com/blog/css-testing/&quot;&gt;Css testing&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.lullabot.com/blog/article/css-regression-testing-resemblejs&quot;&gt;CSS Regression testing with resemble.js&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Une vidéo assez inspirante sur le css &lt;a href=&quot;https://www.youtube.com/watch?v=2PU6JX4S7zI&quot;&gt;Automated css testing&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 27 Mar 2015 19:41:18 +0100</pubDate>
-        <link>http://mosleymos.github.io//jekyll/update/2015/03/27/css-testing.html</link>
-        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/03/27/css-testing.html</guid>
         
         
         <category>jekyll</category>
