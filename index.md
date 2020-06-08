@@ -14,9 +14,6 @@ layout: default
         </header>
         <p>Ce blog est sur la
   programmation et mes intêrets entre autre choses.</p>
-        <ul class="actions">
-            <li><a href="/posts" class="button big">Posts</a></li>
-        </ul>
     </div>
     <span class="image object">
         <img src="images/pic10.jpg" alt="" />
