@@ -6,9 +6,22 @@
 </description>
     <link>http://mosleymos.github.io//</link>
     <atom:link href="http://mosleymos.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Jun 2020 20:22:14 +0200</pubDate>
-    <lastBuildDate>Mon, 08 Jun 2020 20:22:14 +0200</lastBuildDate>
+    <pubDate>Mon, 08 Jun 2020 20:34:56 +0200</pubDate>
+    <lastBuildDate>Mon, 08 Jun 2020 20:34:56 +0200</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>Refactorisation up</title>
+        <description>&lt;h2 id=&quot;refactorisation-up&quot;&gt;Refactorisation up&lt;/h2&gt;
+
+&lt;p&gt;J’ai découvert les boilerplates &lt;a href=&quot;https://html5up.net/&quot;&gt;html5up&lt;/a&gt;. Ils sont simples. J’en ai profité pour refaire les vitrines sur une bonne base.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Apr 2020 17:41:00 +0200</pubDate>
+        <link>http://mosleymos.github.io//2020/04/06/refactorisation-up.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//2020/04/06/refactorisation-up.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>20 jours plus tard</title>
@@ -224,25 +237,6 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
         <pubDate>Tue, 05 May 2015 20:41:18 +0200</pubDate>
         <link>http://mosleymos.github.io//jekyll/update/2015/05/05/codelab-css-testing.html</link>
         <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/05/05/codelab-css-testing.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Javascript linux</title>
-        <description>&lt;p&gt;Des fois je me demande s’il est nécessaire de d’avoir plusieurs langages de programmation ?&lt;/p&gt;
-
-&lt;p&gt;Le réponse est à nuancer, la question n’est pas le langage mais ce que l’on fait avec.&lt;/p&gt;
-
-&lt;p&gt;J’ai trouvé par l’intermédiaire d’une connaissance au Loop ce pc emulé sous javascript &lt;a href=&quot;http://bellard.org/jslinux/&quot;&gt;Jslinux&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 10 Apr 2015 20:41:18 +0200</pubDate>
-        <link>http://mosleymos.github.io//jekyll/update/2015/04/10/javascript-linux-emulation.html</link>
-        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/04/10/javascript-linux-emulation.html</guid>
         
         
         <category>jekyll</category>
