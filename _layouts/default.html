@@ -1,26 +1,27 @@
 <!DOCTYPE html>
  <html>
 
-  {% include head.html %}
+    {% include head.html %}
 
-  <body>
+    <body class="is-preload">
+     <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+      <div id="wrapper">
 
-  {% include header.html %}
+        <div id="main">
+          <div class="inner">
+            {% include header.html %}
+   
+            {{ content }}
 
-    <!--[if lt IE 8]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-      <![endif]-->
-
-      <div class='background-stripe'> </div>
-      <div class='container'>
-
-        <div class='content-box'>
-           {{ content }}
+          </div>
         </div>
-
-
       </div>
+        
 
-  </body>
+
+        {% include scripts.html %}
+    </body>
 
 </html>
