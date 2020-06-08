@@ -1,5 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://mosleymos.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://mosleymos.github.io/" rel="alternate" type="text/html" /><updated>2020-06-08T19:35:40+02:00</updated><id>http://mosleymos.github.io/feed.xml</id><title type="html">DecodeBlog</title><subtitle>&quot;I talk to machines and often to humans.&quot;... This is my motto, and you're in a blog about programming and other stuff.
-</subtitle><entry><title type="html">20 jours plus tard</title><link href="http://mosleymos.github.io/2020/04/06/20-jours-plus-tard.html" rel="alternate" type="text/html" title="20 jours plus tard" /><published>2020-04-06T17:41:00+02:00</published><updated>2020-04-06T17:41:00+02:00</updated><id>http://mosleymos.github.io/2020/04/06/20-jours-plus-tard</id><content type="html" xml:base="http://mosleymos.github.io/2020/04/06/20-jours-plus-tard.html">&lt;h2 id=&quot;20-jours-plus-tard&quot;&gt;20 jours plus tard&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DecodeBlog</title>
+    <description>&quot;I talk to machines and often to humans.&quot;... This is my motto, and you're in a blog about programming and other stuff.
+</description>
+    <link>http://mosleymos.github.io//</link>
+    <atom:link href="http://mosleymos.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 08 Jun 2020 20:04:26 +0200</pubDate>
+    <lastBuildDate>Mon, 08 Jun 2020 20:04:26 +0200</lastBuildDate>
+    <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>20 jours plus tard</title>
+        <description>&lt;h2 id=&quot;20-jours-plus-tard&quot;&gt;20 jours plus tard&lt;/h2&gt;
 
 &lt;p&gt;Toujours en confinement.&lt;/p&gt;
 
@@ -7,13 +20,39 @@
 
 &lt;p&gt;Tout est encore déprimant sur l’écran.&lt;/p&gt;
 
-&lt;p&gt;C’est stressant.&lt;/p&gt;</content><author><name></name></author><summary type="html">20 jours plus tard</summary></entry><entry><title type="html">Cookie party 2019</title><link href="http://mosleymos.github.io/cookie/party/2019/11/01/Cookie-party-2019.html" rel="alternate" type="text/html" title="Cookie party 2019" /><published>2019-11-01T19:41:18+01:00</published><updated>2019-11-01T19:41:18+01:00</updated><id>http://mosleymos.github.io/cookie/party/2019/11/01/Cookie-party-2019</id><content type="html" xml:base="http://mosleymos.github.io/cookie/party/2019/11/01/Cookie-party-2019.html">&lt;h3 id=&quot;cookie-party-2019&quot;&gt;Cookie party 2019&lt;/h3&gt;
+&lt;p&gt;C’est stressant.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Apr 2020 17:41:00 +0200</pubDate>
+        <link>http://mosleymos.github.io//2020/04/06/20-jours-plus-tard.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//2020/04/06/20-jours-plus-tard.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Cookie party 2019</title>
+        <description>&lt;h3 id=&quot;cookie-party-2019&quot;&gt;Cookie party 2019&lt;/h3&gt;
 
 &lt;p&gt;Nouvelle expérience aussi intéressante que celle de la nuit du hack. Orienté musique et arts plastique cette fois çi.&lt;/p&gt;
 
 &lt;p&gt;L’atelier Pico8 subset de lua était sympa.&lt;/p&gt;
 
-&lt;p&gt;La creation de chiptune via Lsdj est un moyen de programmation par manette intéressant.&lt;/p&gt;</content><author><name></name></author><summary type="html">Cookie party 2019</summary></entry><entry><title type="html">Nuit du Hack 2019</title><link href="http://mosleymos.github.io/jekyll/update/2019/07/10/nuit-du-hack-2019.html" rel="alternate" type="text/html" title="Nuit du Hack 2019" /><published>2019-07-10T20:41:18+02:00</published><updated>2019-07-10T20:41:18+02:00</updated><id>http://mosleymos.github.io/jekyll/update/2019/07/10/nuit-du-hack-2019</id><content type="html" xml:base="http://mosleymos.github.io/jekyll/update/2019/07/10/nuit-du-hack-2019.html">&lt;h3 id=&quot;nuit-du-hack-2019&quot;&gt;Nuit du Hack 2019&lt;/h3&gt;
+&lt;p&gt;La creation de chiptune via Lsdj est un moyen de programmation par manette intéressant.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Nov 2019 19:41:18 +0100</pubDate>
+        <link>http://mosleymos.github.io//cookie/party/2019/11/01/Cookie-party-2019.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//cookie/party/2019/11/01/Cookie-party-2019.html</guid>
+        
+        
+        <category>cookie</category>
+        
+        <category>party</category>
+        
+      </item>
+    
+      <item>
+        <title>Nuit du Hack 2019</title>
+        <description>&lt;h3 id=&quot;nuit-du-hack-2019&quot;&gt;Nuit du Hack 2019&lt;/h3&gt;
 
 &lt;p&gt;Première participation, premières impressions. C’est un autre domaine dès lors que l’on voit une cuisine spécialisée.&lt;/p&gt;
 
@@ -21,7 +60,22 @@
 
 &lt;p&gt;Il me faudra désormais essayer RootMe pour creuser.&lt;/p&gt;
 
-&lt;p&gt;Une expérience à retenter.&lt;/p&gt;</content><author><name></name></author><summary type="html">Nuit du Hack 2019</summary></entry><entry><title type="html">Software design decoded</title><link href="http://mosleymos.github.io/jekyll/update/2018/09/18/software_design_decoded.html" rel="alternate" type="text/html" title="Software design decoded" /><published>2018-09-18T20:41:18+02:00</published><updated>2018-09-18T20:41:18+02:00</updated><id>http://mosleymos.github.io/jekyll/update/2018/09/18/software_design_decoded</id><content type="html" xml:base="http://mosleymos.github.io/jekyll/update/2018/09/18/software_design_decoded.html">&lt;h3 id=&quot;software-design-decoded&quot;&gt;Software design decoded&lt;/h3&gt;
+&lt;p&gt;Une expérience à retenter.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Jul 2019 20:41:18 +0200</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2019/07/10/nuit-du-hack-2019.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2019/07/10/nuit-du-hack-2019.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Software design decoded</title>
+        <description>&lt;h3 id=&quot;software-design-decoded&quot;&gt;Software design decoded&lt;/h3&gt;
 
 &lt;p&gt;Lecture du livre Software Design Decoded - 66 ways experts think par Marian Petre et André van der Hoek, illustrations par Yen Quach&lt;/p&gt;
 
@@ -43,7 +97,22 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
   &lt;li&gt;Experts test&lt;/li&gt;
   &lt;li&gt;Experts reflect&lt;/li&gt;
   &lt;li&gt;Experts keep going&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Software design decoded</summary></entry><entry><title type="html">Homo_deus</title><link href="http://mosleymos.github.io/jekyll/update/2018/09/17/homo_deus.html" rel="alternate" type="text/html" title="Homo_deus" /><published>2018-09-17T20:41:18+02:00</published><updated>2018-09-17T20:41:18+02:00</updated><id>http://mosleymos.github.io/jekyll/update/2018/09/17/homo_deus</id><content type="html" xml:base="http://mosleymos.github.io/jekyll/update/2018/09/17/homo_deus.html">&lt;h3 id=&quot;homo_deus&quot;&gt;Homo_deus&lt;/h3&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 18 Sep 2018 20:41:18 +0200</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2018/09/18/software_design_decoded.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2018/09/18/software_design_decoded.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Homo_deus</title>
+        <description>&lt;h3 id=&quot;homo_deus&quot;&gt;Homo_deus&lt;/h3&gt;
 
 &lt;p&gt;Récemmment j’ai lu Homo Deus, livre étant la suite de Sapiens (que je n’ai pas lu). Le livre raconte l’évolution humaine de l’antiquité à nos jours, et tente de tisser des liens entre le passé et le présent. Le dernier chapitre, sur les enjeux futurs m’a intéressé.&lt;/p&gt;
 
@@ -75,12 +144,72 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
   &lt;p&gt;Qu’adviendra-t-il de la société, de la politique et de la vie quotidienne quand des algorithmes non conscients mais hautements intelligents nous connaîtront mieux que nous ne nous connaissons ?&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Des questions fascinantes à explorer.&lt;/p&gt;</content><author><name></name></author><summary type="html">Homo_deus</summary></entry><entry><title type="html">One liner Eye Liner</title><link href="http://mosleymos.github.io/jekyll/update/2016/08/08/one-liner-eye-liner.html" rel="alternate" type="text/html" title="One liner Eye Liner" /><published>2016-08-08T20:41:18+02:00</published><updated>2016-08-08T20:41:18+02:00</updated><id>http://mosleymos.github.io/jekyll/update/2016/08/08/one-liner-eye-liner</id><content type="html" xml:base="http://mosleymos.github.io/jekyll/update/2016/08/08/one-liner-eye-liner.html">&lt;p&gt;Suite à une discussion on m’a proposé cette boutade à propos d’un code que j’ai écrit.&lt;/p&gt;
+&lt;p&gt;Des questions fascinantes à explorer.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Sep 2018 20:41:18 +0200</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2018/09/17/homo_deus.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2018/09/17/homo_deus.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>One liner Eye Liner</title>
+        <description>&lt;p&gt;Suite à une discussion on m’a proposé cette boutade à propos d’un code que j’ai écrit.&lt;/p&gt;
 
-&lt;p&gt;Il y a une verité dans cette association. Un one liner est un eye liner. Il sublime le code.&lt;/p&gt;</content><author><name></name></author><summary type="html">Suite à une discussion on m’a proposé cette boutade à propos d’un code que j’ai écrit.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://mosleymos.github.io/jekyll/update/2016/02/01/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2016-02-01T19:41:18+01:00</published><updated>2016-02-01T19:41:18+01:00</updated><id>http://mosleymos.github.io/jekyll/update/2016/02/01/welcome-to-jekyll</id><content type="html" xml:base="http://mosleymos.github.io/jekyll/update/2016/02/01/welcome-to-jekyll.html">&lt;p&gt;Pour améliorer l’usage de mon blog, j’ai décidé de passer à &lt;a href=&quot;http://jekyllrb.com&quot;&gt;jekyll&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Pour améliorer l’usage de mon blog, j’ai décidé de passer à jekyll.</summary></entry><entry><title type="html">Violence</title><link href="http://mosleymos.github.io/jekyll/update/2015/11/29/violence.html" rel="alternate" type="text/html" title="Violence" /><published>2015-11-29T19:41:18+01:00</published><updated>2015-11-29T19:41:18+01:00</updated><id>http://mosleymos.github.io/jekyll/update/2015/11/29/violence</id><content type="html" xml:base="http://mosleymos.github.io/jekyll/update/2015/11/29/violence.html">&lt;div class=&quot;panel-body&quot;&gt;
+&lt;p&gt;Il y a une verité dans cette association. Un one liner est un eye liner. Il sublime le code.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Aug 2016 20:41:18 +0200</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2016/08/08/one-liner-eye-liner.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2016/08/08/one-liner-eye-liner.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;Pour améliorer l’usage de mon blog, j’ai décidé de passer à &lt;a href=&quot;http://jekyllrb.com&quot;&gt;jekyll&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Feb 2016 19:41:18 +0100</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2016/02/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2016/02/01/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Violence</title>
+        <description>&lt;div class=&quot;panel-body&quot;&gt;
 &lt;blockquote&gt;&quot;La violence: une force faible&quot;&lt;/blockquote&gt;
 &lt;h5&gt;Vladimir Jankélévitch&lt;/h5&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">&quot;La violence: une force faible&quot; Vladimir Jankélévitch</summary></entry><entry><title type="html">Codelab css testing</title><link href="http://mosleymos.github.io/jekyll/update/2015/05/05/codelab-css-testing.html" rel="alternate" type="text/html" title="Codelab css testing" /><published>2015-05-05T20:41:18+02:00</published><updated>2015-05-05T20:41:18+02:00</updated><id>http://mosleymos.github.io/jekyll/update/2015/05/05/codelab-css-testing</id><content type="html" xml:base="http://mosleymos.github.io/jekyll/update/2015/05/05/codelab-css-testing.html">&lt;h3 id=&quot;codelab-ruby-spec&quot;&gt;Codelab ruby spec&lt;/h3&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 29 Nov 2015 19:41:18 +0100</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2015/11/29/violence.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/11/29/violence.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Codelab css testing</title>
+        <description>&lt;h3 id=&quot;codelab-ruby-spec&quot;&gt;Codelab ruby spec&lt;/h3&gt;
 
 &lt;p&gt;La semaine dernière le 30 avril j’ai participé à un codelab au sein du &lt;a href=&quot;https://paris.numa.co/&quot;&gt;NUMA&lt;/a&gt;.&lt;/p&gt;
 
@@ -90,8 +219,37 @@ Néammoins ces 66 observations sont séparés en plusieurs parties qui peuvent s
 
 &lt;p&gt;Le code teste si deux zones de css se superposent “hoverlap” entre elles, mais aussi verifie si un hover est effectué sur un élément. C’est une première étape mais bon en deux petites heures je trouve que c’est pas mal.&lt;/p&gt;
 
-&lt;p&gt;Le test fonctionne dans le cadre d’une application Rails.&lt;/p&gt;</content><author><name></name></author><summary type="html">Codelab ruby spec</summary></entry><entry><title type="html">Javascript linux</title><link href="http://mosleymos.github.io/jekyll/update/2015/04/10/javascript-linux-emulation.html" rel="alternate" type="text/html" title="Javascript linux" /><published>2015-04-10T20:41:18+02:00</published><updated>2015-04-10T20:41:18+02:00</updated><id>http://mosleymos.github.io/jekyll/update/2015/04/10/javascript-linux-emulation</id><content type="html" xml:base="http://mosleymos.github.io/jekyll/update/2015/04/10/javascript-linux-emulation.html">&lt;p&gt;Des fois je me demande s’il est nécessaire de d’avoir plusieurs langages de programmation ?&lt;/p&gt;
+&lt;p&gt;Le test fonctionne dans le cadre d’une application Rails.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 May 2015 20:41:18 +0200</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2015/05/05/codelab-css-testing.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/05/05/codelab-css-testing.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Javascript linux</title>
+        <description>&lt;p&gt;Des fois je me demande s’il est nécessaire de d’avoir plusieurs langages de programmation ?&lt;/p&gt;
 
 &lt;p&gt;Le réponse est à nuancer, la question n’est pas le langage mais ce que l’on fait avec.&lt;/p&gt;
 
-&lt;p&gt;J’ai trouvé par l’intermédiaire d’une connaissance au Loop ce pc emulé sous javascript &lt;a href=&quot;http://bellard.org/jslinux/&quot;&gt;Jslinux&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Des fois je me demande s’il est nécessaire de d’avoir plusieurs langages de programmation ?</summary></entry></feed>
+&lt;p&gt;J’ai trouvé par l’intermédiaire d’une connaissance au Loop ce pc emulé sous javascript &lt;a href=&quot;http://bellard.org/jslinux/&quot;&gt;Jslinux&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Apr 2015 20:41:18 +0200</pubDate>
+        <link>http://mosleymos.github.io//jekyll/update/2015/04/10/javascript-linux-emulation.html</link>
+        <guid isPermaLink="true">http://mosleymos.github.io//jekyll/update/2015/04/10/javascript-linux-emulation.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
