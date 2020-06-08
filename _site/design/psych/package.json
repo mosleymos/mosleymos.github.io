@@ -1,0 +1,17 @@
+{
+  "name": "psych",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browsersync":"./node_modules/browser-sync/dist/bin.js --server --watch index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "browsersync": "0.0.1-security",
+    "parcel-bundler": "^1.9.7"
+  }
+}
