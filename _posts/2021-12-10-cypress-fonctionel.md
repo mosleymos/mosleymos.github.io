@@ -6,155 +6,131 @@ date: 2021-12-10 09:43 +0100
 
 Cypress est une solution que j'ai usé lors d'un développement sur une application Rails. Bien que dubitatif sur l'usage de ce framework pour test d'integration (e2e), les developpements effectués ont permis de lever les doutes.
 
-Au sein de ce post je vais faire un exposé bref de l'approche de cypress et de l'écriture de tests usée sur ce projet. 
+Au sein de ce post je vais faire un exposé bref de l'approche de cypress usée sur le projet. 
 
-L'application qui va nous servir d'exemple est une simple Todolist. Notre application permet la création d'une tache à finir pour une date donnée. Par exemple: "Nettoyer le grenier pour le 15 avril 2022 - A faire".
+Pour exemple nous userons d'une TodoList. Notre application permet la gestion des tâches. Par exemple: "Nettoyer le grenier - A faire pour le 15 avril 2022". Cette tâche comporte un titre et une description.
 
-Après installation de la gem cypress-on-rails et des dépendences associées nous procédons à l'écriture des tests.
+Après installation de cypress et des dépendences associées nous procédons à l'écriture des tests.
 
 ```javascript
 
 describe('Gestion Todolist', ()=>{
 
-        // before - initialisation du contexte avant chaque test
-
         it("cree une todo", ()=>{
-            cy.visit('/todos')
-            cy.get('#todo_new').click()
-            cy.get('#todo_titre').type("Nouvelle todo")
-            cy.get('#todo_description').type("Todo de test et description")
-            cy.get('#todo_submit').click()
-            cy.get('#flash_success').should('have.text', "Todo cree")
+            cy.visit('/todos/new')
+            cy.get('#todo_titre').type("Nettoyer le grenier")
+            cy.get('#todo_description').type("A faire pour le 15 avril 2021")
+            cy.get('.actions > input').click()
+            cy.get('#notice').should('have.text', "Todo was successfully created.")
         })
 
+    
         it("edite une todo", ()=>{
-            cy.visit('/todos')
-            cy.get('#todo_id_1').click()
-            cy.get('#todo_titre').type("Todo Modifie")
-            cy.get('#todo_description').type("Todo de test et description modifiee")
-            cy.get('#todo_submit').click()
-            cy.get('#flash_success').should('have.text', "Todo edite")
+            cy.visit('/todos/1/edit')
+            cy.get('#todo_titre').type("Nettoyer le grenier fissa")
+            cy.get('#todo_description').type("A faire pour le 15 avril 2021 - les balais sont aux sous-sol")
+            cy.get('.actions > input').click()
+            cy.get('#notice').should('have.text', "Todo was successfully updated.")
             
         })
 
         it("supprime une todo", ()=>{
             cy.visit('/todos')
-            cy.get('#todo_id_1_suppr').click()
-            cy.get('#flash_success').should('have.text', "Todo supprimee")
+            cy.get('body > table > tbody > tr:nth-child(1) > td:nth-child(8) > a').click()
+            cy.get('#notice').should('have.text', "Todo was successfully destroyed.")
         })
+
 })
 
 ```
 
 L'exemple ci-desssus est éloquent. Il s'agit de la creation, mise à jour et suppression d'une todo. 
-Le premier point a observer est que l'écriture de tests est impérative (effectuer étape1 puis étape2 ...).
-Les assertions de réussite du test s'effectue par la présence ou non d'éléments.
 
-L'écriture de ce test suit les recommendations mis en tutoriel de cypress. 
+L'écriture de ce test suit les instructions de la documentation cypress. 
+
+Le premier point a observer est que l'écriture de tests est impérative (effectuer étape1 puis étape2 ...).
+Le second point concerne la gestion des assertions. Les assertions réussissent ou échouent en fonction de la présence d'un d'une notice indiquant le statut de l'opération.
+
 
 Les points négatifs de cette approche:
 
-* Abstraction manquante sur les sujets de test. Nous restons trop dans l'informatique pour un test d'intégration. Sans la présence du "it" nous ne pouvons pas deviner d'un coup d'oeil. Il s'agit de rendre la maintenance du code de test plus facile pour le futur. Plusieurs contexte sont manquants tels que les éléments composant une tache.
-* L'impérativité du code empêche une souplesse. Des actions distinctes tels que la création et la destruction d'une tache ont des propriétés similaires.
-* Avoir une souplesse sur la manipulation des éléments du DOM ou de la page. Nous répétons du code pour la visite de la page principale ou sur l'entrée d'informations dans les tags inputs de la page.
+* Abstraction manquante sur les sujets de test. Nous restons trop dans l'informatique pour un test d'intégration. Sans la présence du "it" nous ne pouvons pas deviner d'un coup d'oeil le contexte du test. Il s'agit de rendre la maintenance du code de test plus facile pour le futur.
+* L'impérativité du code empêche une souplesse. Des actions distinctes telles que la création et la destruction d'une tache ont des propriétés similaires.
 
-Afin de contrebalancer ces aspects négatifs, j'ai procédé à une approche fonctionnelle. L'idée fut la suivante: "les actions d'un utilisateur sur une interface logicielles ne sont que des fonctions". Un objet Todo servira à contextualiser les actions utilisateurs doit être présent et des fonctions raccourcis sur Cypress éviteront la répétition de code.
+Afin de contrebalancer ces aspects négatifs, j'ai pensé de la manière suivante:
 
-J'use de la capacité de javascript à posséder un paradigme fonctionnel pour créer des fonctions "utilisateurs" telles que visitePageTodos, cliqueBoutonCreerTodos ...
-J'opère par l'usage d'outils qui vont me servir de raccourcis pour Cypress (map,composition, Monads ...).
-Je procède par la création d'un objet Todo qui va me servir de contexte et permettre l'ecriture des elements de DOM associés à des actions diverses. Cet objet Todo me sert de "données" pour mes "fonctions utilisateurs".
+> "L'utilisateur n'est qu'un objet, les actions d'un utilisateur sur une interface logicielle ne sont que des fonctions".
+
+Cette approche n'est pas nouvelle. J'use du paradigme fonctionnel de javascript pour créer des fonctions "helpers" (visitePage, cliqueBouton...) et des fonctions "utilisateurs" (visitePageTodos, cliqueBoutonCreerTodos ...). Je crée un objet utilisateur et j'opère par l'usage d'outils qui vont me servir de raccourcis pour Cypress (map, et K).
 
 Nous arrivons à ce résultat
 
-Raccourcis Cypress
 ```javascript
-// RaccourcisCypress.js
-
-const id = x => x
+const K = a => b => a
 
 const visitePage = lien => c =>
-    c.visit(lien)
+    K(c)(c.visit(lien))
 
 const entrerTexteChamp = selector => texteAentrer => c =>
-    c.get(selector).type(texteAentrer)
+    K(c)(c.get(selector).type(texteAentrer))
+
 
 const cliquerBouton = selector => c =>
-    c.get(selector).click()
+    K(c)(c.get(selector).click())
 
-module.exports({ 
-  cliquerBouton: cliquerBouton,
-  entrerTexteChamp: entrerTexteChamp,
-  visitePage: visitePage
-})
+const assurerNoticePresente = message => c => 
+    K(c)(c.get('#notice').should('have.text', message))
 
-```
-
-
-```javascript
-// Todo object pour le contexte
-import { visit, visitPage, entrerTexteChamp, cliquerBouton } from './RaccourcisCypress.js'
-
-let page_principale = '/todos'
-const Todo = {
-  visitPagePrincipale: visit(page_principale),
-  entrerTitre: entrerTexteChamp('#texte_val'),
-  cliqueBoutonCreerTodo: cliqueBouton('#validerTodo')
+const Utilisateur = {
+  visitPageListeTodos: visitePage('/todos'),
+  visitPageCreerNouvelleTodo: visitePage('/todos/new'),
+  entrerTitre: entrerTexteChamp('#todo_titre'),
+  editerUneTodo: visitePage('/todos/1/edit'),
+  entrerDescription: entrerTexteChamp('#todo_description'),
+  clickSurBoutonSuppressionTodo: cliquerBouton('body > table > tbody > tr:nth-child(1) > td:nth-child(8) > a'),
+  cliqueBoutonConfirmationTodo: cliquerBouton('.actions > input'),
+  sassurerCreationTodo: assurerNoticePresente("Todo was successfully created."),
+  sassurerModificationTodo: assurerNoticePresente("Todo was successfully updated."),
+  sassurerDestructionTodo: assurerNoticePresente("Todo was successfully destroyed.") 
 }
 
-module.exports({ 
-  Todo: Todo
-})
-```
-
-Le test refactoré.
-
-```javascript
-let TodoGestion = import *
 
 describe('Gestion Todolist', ()=>{
 
         it("cree une todo", ()=>{
-            [cy].map(TodoGestion.visitePageTodos)
-                .map(TodoGestion.cliqueBoutonCreerTodos)
-                .map(TodoGestion.entrerTitre("Nouvelle Todo"))
-                .map(TodoGestion.entrerDescription("Nouvelle description"))
-                .map(TodoGestion.entrerBoutonConfirmation)
-                .map(TodoGestion.assertPresenceMessageConfirmation("Création Todo"))
-        })
 
-        it("edite une todo", ()=>{
-            [cy].map(TodoGestion.visitePageTodos)
-                .map(TodoGestion.editeTodo)
-                .map(TodoGestion.entreTitreModifie("Todo modifié"))
-                .map(TodoGestion.entreDescriptionModifie("Todo Description modifié"))
-                .map(TodoGestion.cliquePourEnregistrement)
-                .map(TodoGestion.assertPresenceMessageConfirmationEditionTodo("Edition Todo"))
+            [cy].map(Utilisateur.visitPageCreerNouvelleTodo)
+                .map(Utilisateur.entrerTitre('Nettoyer le grenier'))
+                .map(Utilisateur.entrerDescription('A faire pour le 15 avril 2021'))
+                .map(Utilisateur.cliqueBoutonConfirmationTodo)
+                .map(Utilisateur.sassurerCreationTodo)
             
         })
 
-        it("supprime une todo", ()=>{
-            [cy].map(TodoGestion.visitePageTodos)
-                .map(TodoGestion.cliqueBoutonSupprimer)
-                .map(TodoGestion.assertPresenceMessageConfirmationSuppressionTodo("Suppression Todo"))
+    
+       it("edite une todo", ()=>{
+            [cy].map(Utilisateur.editerUneTodo)
+                .map(Utilisateur.entrerTitre('Nettoyer le grenier - fissa'))
+                .map(Utilisateur.entrerDescription('A faire pour le 15 avril 2021 - les balais sont aux sous-sol'))
+                .map(Utilisateur.cliqueBoutonConfirmationTodo)
+                .map(Utilisateur.sassurerModificationTodo)
         })
+
+        it("supprime une todo", ()=>{
+            [cy].map(Utilisateur.visitPageListeTodos)
+                .map(Utilisateur.clickSurBoutonSuppressionTodo)
+                .map(Utilisateur.sassurerDestructionTodo)
+        })
+
 })
 
 ```
 
-Je règle par le code précédent plusieurs problèmes:
-* Le manque d'abstraction. On est sur un code de test d'intégration qui décrit ces actions.
-* La répétivité de certaines actions est refactorisé sur une seule fonction ex: visiterPageTodos  
-* Souplesse du code sur l'usage.
+Je règle par ce code précédent plusieurs problèmes:
+* Le manque d'abstraction. On est sur un code de test d'intégration qui décrit ces actions. On a une meilleure compréhension du contexte.
+* La répétivité de certaines actions est refactorisé sur une seule fonction ex: visiterPage.
+* Souplesse du code sur l'usage. Les messages de confirmations peuvent être facilement changés.
 
-
-Est ce de l'over-engineering pour une Todo ? Oui ; mais non dans le cadre de plusieurs modèle ou on a besoin de:
-- Comprendre le contexte
-- Réutiliser les tests associées au contexte 
-
-Le point bonus de cette approche est la possibilité de génerer une documentation par l'usage d'un monad Reader. Ainsi selon la présence d'une variable d'environnement dans le cypress.json je peux générer de la documentation.
-
-```
-// Exemple a mettre avec de la génération de documentation
-```
+Le point bonus de cette approche est la possibilité de génerer plus facilement une documentation pour des usages futurs.
 
 A plus
